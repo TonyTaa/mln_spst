@@ -1,0 +1,2227 @@
+{
+  "classes": [
+    {
+      "classType": "Scholar (Học giả)",
+      "hp": 80,
+      "maxHp": 80,
+      "attack": 12,
+      "defense": 4,
+      "gold": 50,
+      "level": 1,
+      "exp": 0,
+      "inventory": [
+        {
+          "itemId": "p_small",
+          "quantity": 3
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_bamboo",
+        "armor": "a_cloth",
+        "accessory": null
+      },
+      "completedStages": [],
+      "description": "Armed with theoretical knowledge. Starts with higher defense and extra starting potions."
+    },
+    {
+      "classType": "Worker (Công nhân)",
+      "hp": 110,
+      "maxHp": 110,
+      "attack": 14,
+      "defense": 2,
+      "gold": 30,
+      "level": 1,
+      "exp": 0,
+      "inventory": [
+        {
+          "itemId": "p_small",
+          "quantity": 2
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_bamboo",
+        "armor": "a_cloth",
+        "accessory": null
+      },
+      "completedStages": [],
+      "description": "Possesses strong labor stamina. Starts with maximum health points and decent attack power."
+    },
+    {
+      "classType": "Entrepreneur (Doanh nhân)",
+      "hp": 90,
+      "maxHp": 90,
+      "attack": 10,
+      "defense": 3,
+      "gold": 120,
+      "level": 1,
+      "exp": 0,
+      "inventory": [
+        {
+          "itemId": "p_small",
+          "quantity": 1
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_bamboo",
+        "armor": "a_cloth",
+        "accessory": null
+      },
+      "completedStages": [],
+      "description": "A practical market practitioner. Starts with extra gold to buy early equipment."
+    }
+  ],
+  "monsters": [
+    {
+      "id": "m_ignorance",
+      "chapter": 1,
+      "name": "Imp of Ignorance (Quỷ Dốt Nát)",
+      "hp": 35,
+      "maxHp": 35,
+      "attack": 7,
+      "defense": 1,
+      "expReward": 15,
+      "goldReward": 10,
+      "image": "👾"
+    },
+    {
+      "id": "m_dogmatism",
+      "chapter": 1,
+      "name": "Dogmatism Shadow (Bóng Ma Giáo Điều)",
+      "hp": 50,
+      "maxHp": 50,
+      "attack": 10,
+      "defense": 2,
+      "expReward": 25,
+      "goldReward": 15,
+      "image": "👻"
+    },
+    {
+      "id": "m_fake_merchant",
+      "chapter": 2,
+      "name": "Counterfeit Merchant (Thương Nhân Giả Mạo)",
+      "hp": 70,
+      "maxHp": 70,
+      "attack": 15,
+      "defense": 3,
+      "expReward": 40,
+      "goldReward": 25,
+      "image": "👺"
+    },
+    {
+      "id": "m_inflation",
+      "chapter": 2,
+      "name": "Inflation Blob (Quái Vật Lạm Phát)",
+      "hp": 90,
+      "maxHp": 90,
+      "attack": 18,
+      "defense": 5,
+      "expReward": 55,
+      "goldReward": 35,
+      "image": "🤢"
+    },
+    {
+      "id": "m_sweatshop",
+      "chapter": 3,
+      "name": "Sweatshop Foreman (Cai Thầu Bóc Lột)",
+      "hp": 120,
+      "maxHp": 120,
+      "attack": 24,
+      "defense": 7,
+      "expReward": 80,
+      "goldReward": 50,
+      "image": "👿"
+    },
+    {
+      "id": "m_capitalist",
+      "chapter": 3,
+      "name": "Greedy Capitalist (Tư Bản Tham Lam)",
+      "hp": 150,
+      "maxHp": 150,
+      "attack": 28,
+      "defense": 10,
+      "expReward": 110,
+      "goldReward": 70,
+      "image": "🎩"
+    },
+    {
+      "id": "m_monopoly",
+      "chapter": 4,
+      "name": "Monopoly Beast (Quái Thú Độc Quyền)",
+      "hp": 200,
+      "maxHp": 200,
+      "attack": 36,
+      "defense": 14,
+      "expReward": 150,
+      "goldReward": 100,
+      "image": "🦁"
+    },
+    {
+      "id": "m_cartel",
+      "chapter": 4,
+      "name": "Cartel Golem (Người Đá Liên Minh)",
+      "hp": 250,
+      "maxHp": 250,
+      "attack": 42,
+      "defense": 18,
+      "expReward": 200,
+      "goldReward": 130,
+      "image": "🗿"
+    },
+    {
+      "id": "m_blackmarket",
+      "chapter": 5,
+      "name": "Black Market Ghost (Bóng Ma Thị Trường Đen)",
+      "hp": 320,
+      "maxHp": 320,
+      "attack": 52,
+      "defense": 22,
+      "expReward": 280,
+      "goldReward": 180,
+      "image": "🧛"
+    },
+    {
+      "id": "m_speculator",
+      "chapter": 5,
+      "name": "Speculator Slime (Nhớt Đầu Cơ)",
+      "hp": 380,
+      "maxHp": 380,
+      "attack": 60,
+      "defense": 26,
+      "expReward": 350,
+      "goldReward": 220,
+      "image": "🧼"
+    },
+    {
+      "id": "m_despoiler",
+      "chapter": 6,
+      "name": "Tech Despoiler (Kẻ Phá Hoại Công Nghệ)",
+      "hp": 460,
+      "maxHp": 460,
+      "attack": 72,
+      "defense": 32,
+      "expReward": 480,
+      "goldReward": 300,
+      "image": "🤖"
+    },
+    {
+      "id": "m_specter",
+      "chapter": 6,
+      "name": "Neo-Colonial Specter (Bóng Ma Thực Dân Mới)",
+      "hp": 550,
+      "maxHp": 550,
+      "attack": 85,
+      "defense": 38,
+      "expReward": 600,
+      "goldReward": 400,
+      "image": "👽"
+    }
+  ],
+  "bosses": [
+    {
+      "id": "b_subjectivism",
+      "chapter": 1,
+      "name": "Lord of Subjectivism (Chúa Tể Chủ Quan Duy Ý Chí)",
+      "hp": 130,
+      "maxHp": 130,
+      "attack": 15,
+      "defense": 4,
+      "expReward": 150,
+      "goldReward": 100,
+      "image": "👑",
+      "description": "Enforces subjective assumptions against objective economic realities."
+    },
+    {
+      "id": "b_anarchy",
+      "chapter": 2,
+      "name": "Baron of Market Anarchy (Baron Vô Chính Phủ Tiểu Thương)",
+      "hp": 280,
+      "maxHp": 280,
+      "attack": 30,
+      "defense": 8,
+      "expReward": 300,
+      "goldReward": 200,
+      "image": "👹",
+      "description": "Sows chaotic pricing and trade instability across the market map."
+    },
+    {
+      "id": "b_absolute",
+      "chapter": 3,
+      "name": "Overlord of Absolute Surplus (Chúa Tể Thặng Dư Tuyệt Đối)",
+      "hp": 450,
+      "maxHp": 450,
+      "attack": 45,
+      "defense": 14,
+      "expReward": 600,
+      "goldReward": 400,
+      "image": "☠️",
+      "description": "Relentlessly elongates working hours to extract every drop of surplus value."
+    },
+    {
+      "id": "b_imperialism",
+      "chapter": 4,
+      "name": "Emperor of Imperialism (Đế Vương Đế Quốc Chủ Nghĩa)",
+      "hp": 650,
+      "maxHp": 650,
+      "attack": 68,
+      "defense": 22,
+      "expReward": 1000,
+      "goldReward": 600,
+      "image": "🦕",
+      "description": "The ultimate monopoly phase, exporting capital to dominate globally."
+    },
+    {
+      "id": "b_free_market",
+      "chapter": 5,
+      "name": "Archdemon of Anarchic Market (Đại Quỷ Thị Trường Tự Do Vô Hạn)",
+      "hp": 900,
+      "maxHp": 900,
+      "attack": 90,
+      "defense": 30,
+      "expReward": 1800,
+      "goldReward": 1000,
+      "image": "🐉",
+      "description": "Advocates for complete deregulation and opposes the socialist orientation."
+    },
+    {
+      "id": "b_deindustrial",
+      "chapter": 6,
+      "name": "Titan of De-industrialization (Titan Phế Tích Công Nghiệp)",
+      "hp": 1300,
+      "maxHp": 1300,
+      "attack": 115,
+      "defense": 40,
+      "expReward": 3000,
+      "goldReward": 2000,
+      "image": "☄️",
+      "description": "Tries to roll back technological development and keep the economy primitive."
+    }
+  ],
+  "stages": [
+    {
+      "id": "stage_1",
+      "chapter": 1,
+      "name": "Political Economy Classroom (Lớp học Kinh tế Chính trị)",
+      "description": "Learn the fundamentals of Marx-Lenin Political Economy and defeat the shadows of dogmatism.",
+      "monsters": [
+        "m_ignorance",
+        "m_dogmatism"
+      ],
+      "bossId": "b_subjectivism",
+      "minLevel": 1
+    },
+    {
+      "id": "stage_2",
+      "chapter": 2,
+      "name": "Trade Marketplace (Khu chợ Giao thương)",
+      "description": "Enter the marketplace. Verify commodity values and restore order against counterfeiters and inflation.",
+      "monsters": [
+        "m_fake_merchant",
+        "m_inflation"
+      ],
+      "bossId": "b_anarchy",
+      "minLevel": 2
+    },
+    {
+      "id": "stage_3",
+      "chapter": 3,
+      "name": "Surplus Factory (Nhà máy Thặng dư)",
+      "description": "Infiltrate the capitalist factories. Combat intense labor exploitation and release the power of the proletariat.",
+      "monsters": [
+        "m_sweatshop",
+        "m_capitalist"
+      ],
+      "bossId": "b_absolute",
+      "minLevel": 4
+    },
+    {
+      "id": "stage_4",
+      "chapter": 4,
+      "name": "Monopoly Syndicate (Tập đoàn Độc quyền)",
+      "description": "Break the strongholds of giant alliances and cartels that dominate trade and financial gates.",
+      "monsters": [
+        "m_monopoly",
+        "m_cartel"
+      ],
+      "bossId": "b_imperialism",
+      "minLevel": 6
+    },
+    {
+      "id": "stage_5",
+      "chapter": 5,
+      "name": "Market Management Office (Văn phòng Quản lý Thị trường)",
+      "description": "Establish a socialist-oriented framework and align economic benefits harmoniously.",
+      "monsters": [
+        "m_blackmarket",
+        "m_speculator"
+      ],
+      "bossId": "b_free_market",
+      "minLevel": 8
+    },
+    {
+      "id": "stage_6",
+      "chapter": 6,
+      "name": "High-tech Industrial Park (Khu công nghiệp Công nghệ cao)",
+      "description": "Apply advanced 4.0 innovations. Lead Vietnamese industrialization and global integration.",
+      "monsters": [
+        "m_despoiler",
+        "m_specter"
+      ],
+      "bossId": "b_deindustrial",
+      "minLevel": 10
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "chapter": 1,
+      "difficulty": "bronze",
+      "question": "Ai là người đầu tiên đưa ra thuật ngữ 'Kinh tế chính trị'?",
+      "options": [
+        "Antoine de Montchrestien",
+        "Adam Smith",
+        "Karl Marx",
+        "David Ricardo"
+      ],
+      "answer": 0,
+      "explanation": "Thuật ngữ 'Kinh tế chính trị' được nhà kinh tế học người Pháp Antoine de Montchrestien đưa ra lần đầu tiên vào năm 1615 trong tác phẩm 'Chuyên luận về Kinh tế chính trị'."
+    },
+    {
+      "id": 2,
+      "chapter": 1,
+      "difficulty": "bronze",
+      "question": "Kinh tế chính trị Mác - Lênin kế thừa trực tiếp nguồn gốc tư tưởng nào?",
+      "options": [
+        "Kinh tế chính trị học cổ điển Anh",
+        "Chủ nghĩa trọng thương",
+        "Chủ nghĩa trọng nông",
+        "Chủ nghĩa xã hội không tưởng Pháp"
+      ],
+      "answer": 0,
+      "explanation": "Kinh tế chính trị Mác - Lênin kế thừa trực tiếp những giá trị khoa học của Kinh tế chính trị học cổ điển Anh (đại biểu là Adam Smith và David Ricardo) để phát triển học thuyết của mình."
+    },
+    {
+      "id": 3,
+      "chapter": 1,
+      "difficulty": "bronze",
+      "question": "Đối tượng nghiên cứu của Kinh tế chính trị Mác - Lênin là gì?",
+      "options": [
+        "Quan hệ sản xuất trong mối liên hệ tác động qua lại với lực lượng sản xuất và kiến trúc thượng tầng",
+        "Quá trình sản xuất và lưu thông hàng hóa đơn thuần",
+        "Lực lượng sản xuất xã hội và sự tiến bộ công nghệ",
+        "Hành vi ứng xử của người tiêu dùng và các doanh nghiệp trên thị trường"
+      ],
+      "answer": 0,
+      "explanation": "Đối tượng nghiên cứu của Kinh tế chính trị Mác - Lênin là các quan hệ xã hội của sản xuất và trao đổi (quan hệ sản xuất) trong mối liên hệ tác động qua lại với lực lượng sản xuất và kiến trúc thượng tầng tương ứng."
+    },
+    {
+      "id": 4,
+      "chapter": 1,
+      "difficulty": "silver",
+      "question": "Phương pháp cốt lõi nhất được sử dụng trong Kinh tế chính trị Mác - Lênin là phương pháp nào?",
+      "options": [
+        "Trừu tượng hóa khoa học",
+        "Mô hình hóa toán học",
+        "Phân tích thống kê",
+        "Thực nghiệm kinh tế"
+      ],
+      "answer": 0,
+      "explanation": "Trừu tượng hóa khoa học là phương pháp quan trọng và đặc thù nhất của kinh tế chính trị, bằng cách gạt bỏ những hiện tượng ngẫu nhiên, tạm thời để tìm ra bản chất của các hiện tượng kinh tế."
+    },
+    {
+      "id": 5,
+      "chapter": 1,
+      "difficulty": "silver",
+      "question": "Chức năng nào của Kinh tế chính trị Mác - Lênin giúp sinh viên hình thành thế giới quan khoa học và niềm tin vào con đường đi lên chủ nghĩa xã hội?",
+      "options": [
+        "Chức năng tư tưởng",
+        "Chức năng nhận thức",
+        "Chức năng phương pháp luận",
+        "Chức năng thực tiễn"
+      ],
+      "answer": 0,
+      "explanation": "Chức năng tư tưởng giúp người học xây dựng thế giới quan cách mạng, niềm tin khoa học vào mục tiêu giải phóng con người khỏi bóc lột, hướng tới xây dựng xã hội tiến bộ hơn."
+    },
+    {
+      "id": 6,
+      "chapter": 1,
+      "difficulty": "silver",
+      "question": "Khi nghiên cứu quan hệ sản xuất, Kinh tế chính trị Mác - Lênin tập trung vào khía cạnh nào là cốt lõi?",
+      "options": [
+        "Quan hệ sở hữu đối với tư liệu sản xuất",
+        "Quan hệ tổ chức quản lý",
+        "Quan hệ phân phối sản phẩm",
+        "Tất cả các khía cạnh trên"
+      ],
+      "answer": 3,
+      "explanation": "Quan hệ sản xuất bao gồm 3 mặt: Quan hệ sở hữu tư liệu sản xuất, quan hệ tổ chức quản lý sản xuất, và quan hệ phân phối sản phẩm. Cả ba mặt này liên hệ hữu cơ với nhau."
+    },
+    {
+      "id": 7,
+      "chapter": 1,
+      "difficulty": "gold",
+      "question": "Chức năng phương pháp luận của Kinh tế chính trị Mác - Lênin được thể hiện như thế nào?",
+      "options": [
+        "Là nền tảng lý luận khoa học cho các khoa học kinh tế cụ thể và kinh tế hành vi",
+        "Hướng dẫn người dân cách thức đầu tư chứng khoán sinh lời cao",
+        "Cung cấp các công thức tính toán tài chính doanh nghiệp cụ thể",
+        "Quy định các chỉ tiêu kinh tế vĩ mô bắt buộc cho nhà nước"
+      ],
+      "answer": 0,
+      "explanation": "Chức năng phương pháp luận thể hiện ở chỗ Kinh tế chính trị Mác - Lênin cung cấp nền tảng thế giới quan và phương pháp luận khoa học cho việc nghiên cứu các môn kinh tế ngành và các khoa học xã hội khác."
+    },
+    {
+      "id": 8,
+      "chapter": 1,
+      "difficulty": "gold",
+      "question": "Ai là người đã hoàn thiện lý luận Kinh tế chính trị cổ điển Anh trước Mác?",
+      "options": [
+        "David Ricardo",
+        "Adam Smith",
+        "William Petty",
+        "John Maynard Keynes"
+      ],
+      "answer": 0,
+      "explanation": "David Ricardo là người đã đưa hệ thống kinh tế chính trị học cổ điển Anh đạt đến đỉnh cao trước khi Karl Marx thực hiện cuộc cách mạng lý luận trong môn khoa học này."
+    },
+    {
+      "id": 9,
+      "chapter": 1,
+      "difficulty": "silver",
+      "question": "Ý nghĩa thực tiễn lớn nhất của việc học Kinh tế chính trị Mác - Lênin đối với sinh viên Việt Nam hiện nay là gì?",
+      "options": [
+        "Nhận thức đúng quy luật kinh tế khách quan để vận dụng vào hoạt động sản xuất kinh doanh và quản lý xã hội",
+        "Học thuộc các công thức toán học để đi thi đạt điểm cao",
+        "Áp dụng trực tiếp cơ chế bao cấp vào quản lý gia đình",
+        "Tìm cách phủ nhận hoàn toàn vai trò của các quy luật kinh tế tự do"
+      ],
+      "answer": 0,
+      "explanation": "Ý nghĩa thực tiễn lớn nhất là giúp nhận thức rõ các quy luật kinh tế khách quan (như quy luật giá trị, quy luật cung cầu) để định hướng hành vi kinh tế cá nhân và chính sách quản lý nhà nước hiệu quả."
+    },
+    {
+      "id": 10,
+      "chapter": 1,
+      "difficulty": "bronze",
+      "question": "Tác phẩm kinh tế vĩ đại nhất của Karl Marx đặt nền tảng khoa học vững chắc cho chủ nghĩa xã hội khoa học có tên là gì?",
+      "options": [
+        "Tư bản (Das Kapital)",
+        "Tuyên ngôn của Đảng Cộng sản",
+        "Hệ tư tưởng Đức",
+        "Bản thảo kinh tế - triết học năm 1844"
+      ],
+      "answer": 0,
+      "explanation": "Bộ 'Tư bản' (Das Kapital) là tác phẩm kinh điển đồ sộ nhất của Marx, phân tích sâu sắc chủ nghĩa tư bản và phát hiện ra quy luật kinh tế của xã hội hiện đại."
+    },
+    {
+      "id": 11,
+      "chapter": 2,
+      "difficulty": "bronze",
+      "question": "Sản xuất hàng hóa xuất hiện khi có đủ hai điều kiện nào?",
+      "options": [
+        "Phân công lao động xã hội và sự tách biệt về mặt kinh tế của các chủ thể sản xuất",
+        "Tiền tệ xuất hiện và có thị trường buôn bán phát triển",
+        "Công cụ lao động bằng kim loại và sự xuất hiện của nhà nước",
+        "Nhu cầu trao đổi tăng cao và năng suất lao động dư thừa lớn"
+      ],
+      "answer": 0,
+      "explanation": "Hai điều kiện ra đời của sản xuất hàng hóa là: Phân công lao động xã hội (điều kiện cần) và sự tách biệt về mặt kinh tế của các chủ thể sản xuất (dựa trên quan hệ sở hữu tư nhân hoặc các dạng sở hữu khác nhau - điều kiện đủ)."
+    },
+    {
+      "id": 12,
+      "chapter": 2,
+      "difficulty": "bronze",
+      "question": "Hàng hóa là gì theo định nghĩa của Kinh tế chính trị Mác - Lênin?",
+      "options": [
+        "Sản phẩm của lao động, có thể thỏa mãn nhu cầu nào đó của con người và đi vào tiêu dùng thông qua trao đổi, mua bán",
+        "Mọi thứ có sẵn trong tự nhiên mà con người cần đến",
+        "Sản phẩm được sản xuất ra để tự cung tự cấp cho gia đình",
+        "Các tài sản có giá trị lớn được lưu giữ tại ngân hàng"
+      ],
+      "answer": 0,
+      "explanation": "Hàng hóa là sản phẩm của lao động, thỏa mãn một nhu cầu nào đó của con người và được sản xuất ra để trao đổi, mua bán trên thị trường."
+    },
+    {
+      "id": 13,
+      "chapter": 2,
+      "difficulty": "bronze",
+      "question": "Hai thuộc tính của hàng hóa là gì?",
+      "options": [
+        "Giá trị sử dụng và giá trị",
+        "Giá trị sử dụng và giá trị trao đổi",
+        "Giá trị và giá trị trao đổi",
+        "Tính hữu ích và độ khan hiếm"
+      ],
+      "answer": 0,
+      "explanation": "Mọi hàng hóa đều có hai thuộc tính cơ bản: Giá trị sử dụng (công dụng của vật phẩm) và Giá trị (lao động xã hội của người sản xuất hàng hóa kết tinh trong hàng hóa)."
+    },
+    {
+      "id": 14,
+      "chapter": 2,
+      "difficulty": "bronze",
+      "question": "Giá trị sử dụng của hàng hóa do yếu tố nào quyết định?",
+      "options": [
+        "Thuộc tính tự nhiên của vật phẩm",
+        "Lao động trừu tượng của người sản xuất",
+        "Thời gian lao động xã hội cần thiết",
+        "Sự khan hiếm của hàng hóa trên thị trường"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị sử dụng do các thuộc tính tự nhiên (vật lý, hóa học, sinh học...) của thực thể hàng hóa quyết định. Nó là phạm trù vĩnh viễn."
+    },
+    {
+      "id": 15,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Lao động cụ thể tạo ra thuộc tính nào của hàng hóa?",
+      "options": [
+        "Giá trị sử dụng",
+        "Giá trị",
+        "Giá trị trao đổi",
+        "Cả giá trị và giá trị sử dụng"
+      ],
+      "answer": 0,
+      "explanation": "Lao động cụ thể là lao động có ích dưới một hình thức cụ thể của một nghề nghiệp chuyên môn nhất định. Lao động cụ thể tạo ra giá trị sử dụng của hàng hóa."
+    },
+    {
+      "id": 16,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Lao động trừu tượng tạo ra thuộc tính nào của hàng hóa?",
+      "options": [
+        "Giá trị của hàng hóa",
+        "Giá trị sử dụng",
+        "Giá trị thặng dư",
+        "Chỉ tạo ra tiền tệ"
+      ],
+      "answer": 0,
+      "explanation": "Lao động trừu tượng là sự hao phí sức lực (cơ bắp, thần kinh, trí óc) của con người nói chung, không kể các hình thức cụ thể. Lao động trừu tượng kết tinh tạo ra giá trị của hàng hóa."
+    },
+    {
+      "id": 17,
+      "chapter": 2,
+      "difficulty": "bronze",
+      "question": "Lượng giá trị của một đơn vị hàng hóa được đo lường bằng đại lượng nào?",
+      "options": [
+        "Thời gian lao động xã hội cần thiết",
+        "Thời gian lao động cá biệt của người sản xuất giỏi nhất",
+        "Thời gian lao động cá biệt của người sản xuất kém nhất",
+        "Số lượng tiền tệ dùng để mua hàng hóa đó"
+      ],
+      "answer": 0,
+      "explanation": "Lượng giá trị của hàng hóa được đo bằng lượng lao động tiêu hao để sản xuất ra hàng hóa đó, tính bằng thời gian lao động xã hội cần thiết."
+    },
+    {
+      "id": 18,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Thời gian lao động xã hội cần thiết là thời gian thế nào?",
+      "options": [
+        "Thời gian sản xuất trong điều kiện trung bình của xã hội, trình độ thành thạo trung bình và cường độ lao động trung bình",
+        "Thời gian sản xuất của người nông dân nghèo nhất",
+        "Thời gian sản xuất trong các nhà máy tự động hóa hoàn toàn",
+        "Thời gian thỏa thuận giữa người bán và người mua"
+      ],
+      "answer": 0,
+      "explanation": "Thời gian lao động xã hội cần thiết là thời gian đòi hỏi để sản xuất ra một giá trị sử dụng nào đó trong những điều kiện sản xuất bình thường của xã hội với một trình độ thành thạo trung bình và cường độ lao động trung bình."
+    },
+    {
+      "id": 19,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Năng suất lao động tăng lên thì lượng giá trị của một đơn vị hàng hóa thay đổi thế nào?",
+      "options": [
+        "Giảm xuống",
+        "Tăng lên",
+        "Không thay đổi",
+        "Tăng gấp đôi"
+      ],
+      "answer": 0,
+      "explanation": "Năng suất lao động tỉ lệ nghịch với lượng giá trị của một đơn vị hàng hóa. Khi năng suất lao động tăng, thời gian cần thiết để sản xuất một hàng hóa giảm đi, do đó lượng giá trị của nó giảm."
+    },
+    {
+      "id": 20,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Cường độ lao động tăng lên thì lượng giá trị của một đơn vị hàng hóa thay đổi thế nào?",
+      "options": [
+        "Không thay đổi",
+        "Tăng lên",
+        "Giảm xuống",
+        "Biến động không quy luật"
+      ],
+      "answer": 0,
+      "explanation": "Cường độ lao động phản ánh mức độ khẩn trương của lao động. Khi cường độ lao động tăng, tổng số sản phẩm tăng và tổng lượng giá trị tăng tương ứng, nhưng lượng giá trị của một đơn vị hàng hóa vẫn không đổi."
+    },
+    {
+      "id": 21,
+      "chapter": 2,
+      "difficulty": "bronze",
+      "question": "Tiền tệ có mấy chức năng cơ bản theo học thuyết của Karl Marx?",
+      "options": [
+        "5 chức năng",
+        "3 chức năng",
+        "4 chức năng",
+        "6 chức năng"
+      ],
+      "answer": 0,
+      "explanation": "Theo K.Marx, tiền tệ có 5 chức năng: Thước đo giá trị, Phương tiện lưu thông, Phương tiện cất trữ, Phương tiện thanh toán, và Tiền tệ thế giới."
+    },
+    {
+      "id": 22,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Khi tiền làm môi giới trong quá trình trao đổi hàng hóa theo công thức H - T - H, tiền thực hiện chức năng gì?",
+      "options": [
+        "Phương tiện lưu thông",
+        "Thước đo giá trị",
+        "Phương tiện thanh toán",
+        "Phương tiện cất trữ"
+      ],
+      "answer": 0,
+      "explanation": "Trong công thức Hàng - Tiền - Hàng (H-T-H), tiền đóng vai trò trung gian môi giới mua bán, thực hiện chức năng phương tiện lưu thông."
+    },
+    {
+      "id": 23,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Quy luật kinh tế cơ bản của sản xuất và lưu thông hàng hóa là quy luật nào?",
+      "options": [
+        "Quy luật giá trị",
+        "Quy luật cung cầu",
+        "Quy luật cạnh tranh",
+        "Quy luật lưu thông tiền tệ"
+      ],
+      "answer": 0,
+      "explanation": "Quy luật giá trị là quy luật kinh tế căn bản của sản xuất và lưu thông hàng hóa, yêu cầu sản xuất và trao đổi hàng hóa phải dựa trên cơ sở hao phí lao động xã hội cần thiết."
+    },
+    {
+      "id": 24,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Yêu cầu của quy luật giá trị trong trao đổi hàng hóa là gì?",
+      "options": [
+        "Trao đổi phải tiến hành theo nguyên tắc ngang giá",
+        "Giá cả luôn bằng giá trị",
+        "Người giàu phải mua đắt hơn người nghèo",
+        "Nhà nước ấn định mọi mức giá"
+      ],
+      "answer": 0,
+      "explanation": "Quy luật giá trị yêu cầu trao đổi hàng hóa phải dựa trên nguyên tắc ngang giá, tức là giá cả hàng hóa phải xoay quanh trục giá trị của nó."
+    },
+    {
+      "id": 25,
+      "chapter": 2,
+      "difficulty": "gold",
+      "question": "Tác động tiêu cực của quy luật giá trị trong nền sản xuất hàng hóa tư bản chủ nghĩa là gì?",
+      "options": [
+        "Phân hóa những người sản xuất hàng hóa thành người giàu và người nghèo",
+        "Kích thích cải tiến kỹ thuật, nâng cao năng suất lao động",
+        "Điều tiết tự phát các yếu tố sản xuất giữa các ngành",
+        "Thúc đẩy sự bình đẳng tuyệt đối giữa mọi tầng lớp"
+      ],
+      "answer": 0,
+      "explanation": "Tác động tiêu cực của quy luật giá trị là tự phát phân hóa những người sản xuất hàng hóa thành người giàu (chủ tư bản) và người nghèo (người làm thuê), dẫn đến bất bình đẳng xã hội."
+    },
+    {
+      "id": 26,
+      "chapter": 2,
+      "difficulty": "bronze",
+      "question": "Thị trường là gì theo nghĩa rộng nhất?",
+      "options": [
+        "Tổng hòa các mối quan hệ xã hội về trao đổi, mua bán sản phẩm được hình thành trong những điều kiện lịch sử nhất định",
+        "Nơi diễn ra các hoạt động họp chợ của bà con tiểu thương",
+        "Một trang web thương mại điện tử chuyên bán lẻ hàng hóa",
+        "Hệ thống siêu thị và trung tâm mua sắm hiện đại"
+      ],
+      "answer": 0,
+      "explanation": "Theo nghĩa rộng, thị trường là tổng hòa các mối quan hệ xã hội về trao đổi, mua bán hàng hóa, dịch vụ được hình thành trong những điều kiện lịch sử, địa lý nhất định."
+    },
+    {
+      "id": 27,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Trong các chủ thể tham gia thị trường, chủ thể nào đóng vai trò tạo ra hàng hóa và dịch vụ để phục vụ tiêu dùng xã hội?",
+      "options": [
+        "Người sản xuất",
+        "Người tiêu dùng",
+        "Các chủ thể trung gian",
+        "Nhà nước"
+      ],
+      "answer": 0,
+      "explanation": "Người sản xuất (doanh nghiệp, trang trại, hộ kinh doanh...) là chủ thể trực tiếp sử dụng tư liệu sản xuất và lao động để tạo ra sản phẩm hàng hóa cung ứng cho thị trường."
+    },
+    {
+      "id": 28,
+      "chapter": 2,
+      "difficulty": "silver",
+      "question": "Chủ thể nào đóng vai trò định hướng sản xuất thông qua việc thể hiện thị hiếu và nhu cầu mua sắm?",
+      "options": [
+        "Người tiêu dùng",
+        "Người sản xuất",
+        "Thương nhân trung gian",
+        "Ngân hàng nhà nước"
+      ],
+      "answer": 0,
+      "explanation": "Người tiêu dùng có vai trò định hướng sản xuất. Nhu cầu, thị hiếu và quyết định mua của họ gửi tín hiệu đến người sản xuất nên sản xuất cái gì, số lượng bao nhiêu."
+    },
+    {
+      "id": 29,
+      "chapter": 2,
+      "difficulty": "gold",
+      "question": "Vai trò kinh tế chính yếu của Nhà nước trong nền kinh tế thị trường là gì?",
+      "options": [
+        "Quản lý, kiến tạo môi trường vĩ mô, điều tiết nền kinh tế và khắc phục các thất bại của thị trường",
+        "Trực tiếp ấn định giá cả cho tất cả các mặt hàng tiêu dùng lẻ",
+        "Thay thế hoàn toàn doanh nghiệp tư nhân sản xuất hàng hóa",
+        "Ngăn cấm hoàn toàn mọi hoạt động cạnh tranh tự do"
+      ],
+      "answer": 0,
+      "explanation": "Nhà nước thực hiện chức năng quản lý vĩ mô, kiến tạo thể chế kinh tế, điều tiết các quan hệ kinh tế và can thiệp khắc phục các khuyết tật của thị trường (như độc quyền, ô nhiễm, phân hóa giàu nghèo)."
+    },
+    {
+      "id": 30,
+      "chapter": 2,
+      "difficulty": "gold",
+      "question": "Mối quan hệ giữa giá cả thị trường và giá trị hàng hóa được biểu hiện như thế nào?",
+      "options": [
+        "Giá cả thị trường tự phát lên xuống xoay quanh giá trị hàng hóa dưới tác động của cung cầu",
+        "Giá cả luôn luôn trùng khớp tuyệt đối với giá trị hàng hóa",
+        "Giá cả không bao giờ chịu ảnh hưởng bởi giá trị hàng hóa",
+        "Giá cả do ý muốn chủ quan của người bán quyết định và không có giới hạn"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị là cơ sở của giá cả. Dưới tác động của quy luật cung cầu và cạnh tranh, giá cả thị trường sẽ dao động tự phát xoay quanh trục giá trị của hàng hóa."
+    },
+    {
+      "id": 31,
+      "chapter": 3,
+      "difficulty": "bronze",
+      "question": "Công thức chung của tư bản là gì?",
+      "options": [
+        "T - H - T'",
+        "H - T - H",
+        "T - H - T",
+        "H - T - H'"
+      ],
+      "answer": 0,
+      "explanation": "Công thức chung của tư bản là T - H - T' (trong đó T' = T + d, d là giá trị thặng dư trội ra). Nó phản ánh mục đích của tư bản là lớn lên, sinh ra tiền nhiều hơn."
+    },
+    {
+      "id": 32,
+      "chapter": 3,
+      "difficulty": "bronze",
+      "question": "Mâu thuẫn của công thức chung của tư bản là gì?",
+      "options": [
+        "Tư bản không thể xuất hiện từ lưu thông, cũng không thể xuất hiện ở ngoài lưu thông. Nó phải xuất hiện trong lưu thông và đồng thời không phải trong lưu thông",
+        "Người mua luôn muốn mua rẻ, người bán luôn muốn bán đắt",
+        "Tiền tệ không đủ để lưu thông hàng hóa trên thị trường",
+        "Hàng hóa không bán được dẫn đến khủng hoảng kinh tế thừa"
+      ],
+      "answer": 0,
+      "explanation": "Mâu thuẫn công thức chung: Bản thân lưu thông không tạo ra giá trị tăng thêm (ngang giá hay không ngang giá). Nhưng tư bản không thể sinh ra ngoài lưu thông. Sự tăng thêm đó diễn ra nhờ việc sử dụng một hàng hóa đặc biệt trong lưu thông."
+    },
+    {
+      "id": 33,
+      "chapter": 3,
+      "difficulty": "bronze",
+      "question": "Hàng hóa đặc biệt được nói ở đây, có nguồn gốc trực tiếp sinh ra giá trị thặng dư, là hàng hóa gì?",
+      "options": [
+        "Sức lao động",
+        "Tư liệu sản xuất",
+        "Máy móc thiết bị hiện đại",
+        "Vàng và ngoại tệ mạnh"
+      ],
+      "answer": 0,
+      "explanation": "Sức lao động là hàng hóa đặc biệt khi sử dụng nó có thể tạo ra giá trị mới lớn hơn giá trị bản thân nó. Đây chính là nguồn gốc duy nhất sinh ra giá trị thặng dư."
+    },
+    {
+      "id": 34,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Sức lao động trở thành hàng hóa khi có đủ hai điều kiện lịch sử nào?",
+      "options": [
+        "Người lao động được tự do về thân thể và người lao động bị mất hết tư liệu sản xuất",
+        "Người lao động biết chế tạo máy móc và có tiền tiêu dùng",
+        "Xã hội có phân công lao động và nhà nước công nhận quyền tự do cư trú",
+        "Thị trường lao động được tự do hóa và tiền lương tối thiểu được quy định"
+      ],
+      "answer": 0,
+      "explanation": "Sức lao động chỉ trở thành hàng hóa khi: người lao động được tự do về thân thể (để bán sức lao động của mình) và người đó không có tư liệu sản xuất (buộc phải bán sức lao động để sinh sống)."
+    },
+    {
+      "id": 35,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Giá trị sử dụng của hàng hóa sức lao động có đặc tính độc đáo nào?",
+      "options": [
+        "Trong quá trình tiêu dùng (lao động), nó tạo ra một lượng giá trị mới lớn hơn giá trị của bản thân nó",
+        "Nó sẽ biến mất hoàn toàn mà không để lại bất kỳ dấu vết vật chất nào",
+        "Nó tăng lên khi người lao động nghỉ ngơi nhiều",
+        "Nó hoàn toàn giống giá trị sử dụng của các hàng hóa thông thường khác"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị sử dụng của hàng hóa sức lao động khi tiêu dùng sẽ tạo ra giá trị mới lớn hơn giá trị của chính nó, phần dôi ra đó chính là giá trị thặng dư (m)."
+    },
+    {
+      "id": 36,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Giá trị của hàng hóa sức lao động được đo lường gián tiếp bằng yếu tố nào?",
+      "options": [
+        "Giá trị của các tư liệu sinh hoạt cần thiết để nuôi sống người lao động và gia đình họ",
+        "Năng suất lao động của người công nhân đó tạo ra trong một ngày",
+        "Mức tiền lương trung bình do liên đoàn lao động quy định",
+        "Thời gian làm việc ghi trên hợp đồng lao động"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị sức lao động được quy về giá trị của lượng tư liệu sinh hoạt cần thiết để tái sản xuất sức lao động, nuôi sống gia đình người lao động và chi phí đào tạo họ."
+    },
+    {
+      "id": 37,
+      "chapter": 3,
+      "difficulty": "bronze",
+      "question": "Giá trị thặng dư (m) là gì theo định nghĩa của Karl Marx?",
+      "options": [
+        "Bộ phận giá trị mới dôi ra ngoài giá trị sức lao động do công nhân làm thuê tạo ra và bị nhà tư bản chiếm đoạt",
+        "Số tiền lãi mà doanh nghiệp thu được sau khi bán hàng trừ đi giá vốn",
+        "Khoản tiền thưởng mà nhà tư bản trả thêm cho công nhân xuất sắc",
+        "Phần tiền thuế mà nhà nước thu từ các doanh nghiệp"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị thặng dư là bộ phận giá trị mới dôi ra ngoài giá trị sức lao động do công nhân làm thuê tạo ra trong quá trình sản xuất và bị nhà tư bản chiếm đoạt không công."
+    },
+    {
+      "id": 38,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Tư bản bất biến (c) là bộ phận tư bản được dùng để mua yếu tố nào?",
+      "options": [
+        "Tư liệu sản xuất (nhà xưởng, máy móc, nguyên vật liệu)",
+        "Sức lao động của công nhân",
+        "Các dịch vụ tư vấn quản lý",
+        "Cổ phiếu và trái phiếu công ty"
+      ],
+      "answer": 0,
+      "explanation": "Tư bản bất biến (c) là bộ phận tư bản biến thành tư liệu sản xuất, giá trị của nó được bảo tồn và chuyển nguyên vẹn vào sản phẩm mới, không thay đổi về lượng giá trị."
+    },
+    {
+      "id": 39,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Tư bản khả biến (v) là bộ phận tư bản dùng để mua yếu tố nào?",
+      "options": [
+        "Sức lao động",
+        "Nguyên nhiên vật liệu",
+        "Máy móc công nghệ cao",
+        "Đất đai xây nhà xưởng"
+      ],
+      "answer": 0,
+      "explanation": "Tư bản khả biến (v) là bộ phận tư bản biến thành sức lao động, trong quá trình sản xuất nó tăng lên về lượng giá trị thông qua lao động trừu tượng của công nhân."
+    },
+    {
+      "id": 40,
+      "chapter": 3,
+      "difficulty": "gold",
+      "question": "Sự phân chia tư bản thành Tư bản bất biến (c) và Tư bản khả biến (v) có ý nghĩa khoa học vĩ đại nào?",
+      "options": [
+        "Vạch rõ nguồn gốc thực sự của giá trị thặng dư là do tư bản khả biến (v) tạo ra",
+        "Giúp kế toán doanh nghiệp tính toán chi phí khấu hao tài sản cố định dễ dàng hơn",
+        "Giúp tối ưu hóa thuế thu nhập doanh nghiệp đóng cho nhà nước",
+        "Chứng minh máy móc hiện đại là nguồn gốc tạo ra nhiều tiền lãi nhất"
+      ],
+      "answer": 0,
+      "explanation": "Việc phân chia thành c và v chỉ ra rằng máy móc (c) dù hiện đại đến đâu cũng chỉ chuyển giá trị sẵn có, còn sức lao động (v) mới chính là nguồn gốc duy nhất sinh ra giá trị thặng dư (m)."
+    },
+    {
+      "id": 41,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Có mấy phương pháp sản xuất giá trị thặng dư chủ yếu trong lịch sử chủ nghĩa tư bản?",
+      "options": [
+        "Sản xuất giá trị thặng dư tuyệt đối và sản xuất giá trị thặng dư tương đối",
+        "Sản xuất giá trị thặng dư siêu ngạch và sản xuất giá trị thặng dư bình quân",
+        "Sản xuất thủ công và sản xuất tự động hóa",
+        "Sản xuất tự do và sản xuất độc quyền độc chiếm"
+      ],
+      "answer": 0,
+      "explanation": "Có hai phương pháp chính: Giá trị thặng dư tuyệt đối (kéo dài ngày lao động vượt quá thời gian lao động tất yếu) và Giá trị thặng dư tương đối (rút ngắn thời gian lao động tất yếu nhờ tăng năng suất lao động xã hội)."
+    },
+    {
+      "id": 42,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Phương pháp sản xuất giá trị thặng dư tuyệt đối thực hiện bằng cách nào?",
+      "options": [
+        "Kéo dài ngày lao động hoặc tăng cường độ lao động trong khi thời gian lao động tất yếu không đổi",
+        "Nâng cao năng suất lao động xã hội để rút ngắn ngày lao động lại",
+        "Áp dụng máy móc hiện đại vào quy trình lắp ráp sản phẩm",
+        "Cắt giảm tiền lương cơ bản của công nhân xuống mức tối thiểu"
+      ],
+      "answer": 0,
+      "explanation": "Sản xuất giá trị thặng dư tuyệt đối là kéo dài ngày lao động (hoặc tăng cường độ lao động) trong điều kiện thời gian lao động tất yếu giữ nguyên, làm tăng thời gian lao động thặng dư."
+    },
+    {
+      "id": 43,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Phương pháp sản xuất giá trị thặng dư tương đối được thực hiện bằng cách nào?",
+      "options": [
+        "Rút ngắn thời gian lao động tất yếu bằng cách tăng năng suất lao động xã hội, nhờ đó kéo dài thời gian lao động thặng dư trong điều kiện độ dài ngày lao động không đổi",
+        "Bắt công nhân làm ca đêm liên tục 12 tiếng",
+        "Đầu tư mua thêm đất đai để mở rộng quy mô xưởng",
+        "Sử dụng lao động trẻ em để giảm thiểu chi phí tiền lương"
+      ],
+      "answer": 0,
+      "explanation": "Sản xuất giá trị thặng dư tương đối là rút ngắn thời gian lao động tất yếu dựa trên cơ sở tăng năng suất lao động xã hội trong các ngành sản xuất tư liệu sinh hoạt, làm giảm giá trị sức lao động."
+    },
+    {
+      "id": 44,
+      "chapter": 3,
+      "difficulty": "gold",
+      "question": "Giá trị thặng dư siêu ngạch là gì?",
+      "options": [
+        "Phần giá trị thặng dư thu được do doanh nghiệp áp dụng công nghệ mới nâng năng suất lao động cá biệt cao hơn năng suất lao động xã hội",
+        "Phần tiền lãi thu được từ các hoạt động đầu cơ bất động sản",
+        "Khoản tiền phạt vi phạm hợp đồng lao động mà công nhân phải đóng",
+        "Phần thặng dư thu được từ xuất khẩu hàng hóa ra thị trường quốc tế"
+      ],
+      "answer": 0,
+      "explanation": "Giá trị thặng dư siêu ngạch thu được khi nhà tư bản cá biệt áp dụng kỹ thuật tiên tiến, làm năng suất lao động cá biệt cao hơn năng suất lao động xã hội, hạ thấp giá trị cá biệt của hàng hóa so với giá trị xã hội."
+    },
+    {
+      "id": 45,
+      "chapter": 3,
+      "difficulty": "gold",
+      "question": "Mối quan hệ giữa giá trị thặng dư siêu ngạch và giá trị thặng dư tương đối là gì?",
+      "options": [
+        "Giá trị thặng dư siêu ngạch là động lực mạnh mẽ nhất thúc đẩy tăng năng suất lao động xã hội, và là hình thức biến tướng, chuẩn bị cho giá trị thặng dư tương đối",
+        "Hai hình thức này hoàn toàn loại trừ nhau và không xuất hiện đồng thời",
+        "Giá trị thặng dư tương đối tạo ra giá trị thặng dư siêu ngạch một cách ngẫu nhiên",
+        "Giá trị thặng dư siêu ngạch chỉ xuất hiện ở thời kỳ hiệp tác giản đơn"
+      ],
+      "answer": 0,
+      "explanation": "Theo K.Marx, giá trị thặng dư siêu ngạch là động lực trực tiếp kích thích các nhà tư bản cải tiến kỹ thuật. Việc các nhà tư bản chạy theo siêu ngạch dẫn đến năng suất lao động xã hội tăng lên, hình thành giá trị thặng dư tương đối."
+    },
+    {
+      "id": 46,
+      "chapter": 3,
+      "difficulty": "bronze",
+      "question": "Tích lũy tư bản là gì về mặt bản chất?",
+      "options": [
+        "Sự chuyển hóa một phần giá trị thặng dư trở lại thành tư bản (tư bản hóa giá trị thặng dư)",
+        "Việc các nhà tư bản gửi tiền tiết kiệm vào ngân hàng trung ương",
+        "Quá trình thu hồi các khoản nợ từ đối tác nước ngoài",
+        "Hoạt động kêu gọi vốn cổ phần từ thị trường chứng khoán"
+      ],
+      "answer": 0,
+      "explanation": "Tích lũy tư bản là sự chuyển hóa một phần giá trị thặng dư thành tư bản phụ thêm để mở rộng sản xuất. Nguồn gốc duy nhất của tích lũy tư bản là giá trị thặng dư."
+    },
+    {
+      "id": 47,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Nhân tố nào sau đây KHÔNG ảnh hưởng trực tiếp đến quy mô tích lũy tư bản?",
+      "options": [
+        "Độ tuổi nghỉ hưu trung bình của người lao động trong luật",
+        "Trình độ bóc lột sức lao động (tăng m')",
+        "Năng suất lao động xã hội",
+        "Sự chênh lệch giữa tư bản sử dụng và tư bản tiêu dùng"
+      ],
+      "answer": 0,
+      "explanation": "Các nhân tố quyết định quy mô tích lũy gồm: Trình độ khai thác sức lao động, năng suất lao động, hiệu quả sử dụng máy móc, và quy mô tư bản ứng trước. Độ tuổi nghỉ hưu trong luật không phải nhân tố trực tiếp ảnh hưởng quy mô tích lũy."
+    },
+    {
+      "id": 48,
+      "chapter": 3,
+      "difficulty": "gold",
+      "question": "Cấu tạo hữu cơ của tư bản (c/v) có xu hướng thay đổi thế nào khi chủ nghĩa tư bản phát triển?",
+      "options": [
+        "Tăng lên không ngừng",
+        "Giảm dần về không",
+        "Giữ nguyên ổn định",
+        "Dao động lên xuống tuần hoàn"
+      ],
+      "answer": 0,
+      "explanation": "Cấu tạo hữu cơ (ký hiệu c/v) phản ánh quan hệ kỹ thuật-công nghệ. Khi khoa học phát triển, tư bản đầu tư vào máy móc thiết bị (c) tăng nhanh hơn rất nhiều so với đầu tư vào sức lao động (v), do đó cấu tạo hữu cơ tăng lên."
+    },
+    {
+      "id": 49,
+      "chapter": 3,
+      "difficulty": "gold",
+      "question": "Hậu quả xã hội lớn nhất của việc tăng cấu tạo hữu cơ tư bản là gì?",
+      "options": [
+        "Tích lũy rác thải công nghiệp gây biến đổi khí hậu toàn cầu",
+        "Nạn thất nghiệp kinh niên (đội quân thất nghiệp công nghiệp) tăng lên",
+        "Tỷ suất lợi nhuận bình quân của toàn bộ nền kinh tế tăng vọt",
+        "Sự bình đẳng tuyệt đối giữa giai cấp tư sản và vô sản"
+      ],
+      "answer": 1,
+      "explanation": "Khi cấu tạo hữu cơ (c/v) tăng, nhu cầu tương đối về sức lao động (v) giảm đi tương đối so với tổng tư bản, dẫn đến tình trạng dư thừa nhân khẩu lao động cơ cấu, tức nạn thất nghiệp."
+    },
+    {
+      "id": 50,
+      "chapter": 3,
+      "difficulty": "bronze",
+      "question": "Tuần hoàn của tư bản công nghiệp trải qua mấy giai đoạn?",
+      "options": [
+        "3 giai đoạn",
+        "2 giai đoạn",
+        "4 giai đoạn",
+        "5 giai đoạn"
+      ],
+      "answer": 0,
+      "explanation": "Tuần hoàn tư bản trải qua 3 giai đoạn: Mua (lưu thông) -> Sản xuất -> Bán (lưu thông). Tương ứng có 3 hình thái: Tư bản tiền tệ, Tư bản sản xuất, và Tư bản hàng hóa."
+    },
+    {
+      "id": 51,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Tư bản cố định là bộ phận tư bản sản xuất có đặc điểm lưu thông thế nào?",
+      "options": [
+        "Tham gia toàn bộ vào quá trình sản xuất nhưng chuyển giá trị từng phần vào sản phẩm mới",
+        "Chuyển toàn bộ giá trị của nó vào sản phẩm mới sau một chu kỳ sản xuất",
+        "Chỉ lưu thông dưới hình thức tiền tệ tại thị trường tài chính",
+        "Thay đổi hình thái liên tục trong ngày làm việc"
+      ],
+      "answer": 0,
+      "explanation": "Tư bản cố định (như nhà xưởng, máy móc) tham gia toàn bộ vào quá trình sản xuất, nhưng giá trị của nó được chuyển dần từng phần vào sản phẩm dưới dạng khấu hao hao mòn."
+    },
+    {
+      "id": 52,
+      "chapter": 3,
+      "difficulty": "silver",
+      "question": "Tư bản lưu động là bộ phận tư bản sản xuất có đặc điểm thế nào?",
+      "options": [
+        "Chuyển toàn bộ giá trị vào sản phẩm mới sau một chu kỳ sản xuất (như nguyên liệu, tiền lương)",
+        "Không bao giờ thay đổi vị trí vật lý trong nhà máy",
+        "Được cất giữ trong két sắt của chủ tư bản dưới dạng tiền mặt",
+        "Chỉ bao gồm các phương tiện giao thông vận tải hàng hóa"
+      ],
+      "answer": 0,
+      "explanation": "Tư bản lưu động (như nguyên vật liệu, nhiên liệu, sức lao động) được tiêu dùng hoàn toàn trong một chu kỳ sản xuất và chuyển toàn bộ giá trị của nó vào sản phẩm mới sau chu kỳ đó."
+    },
+    {
+      "id": 53,
+      "chapter": 3,
+      "difficulty": "gold",
+      "question": "Tỷ suất lợi nhuận (p') phản ánh điều gì và được tính bằng công thức nào?",
+      "options": [
+        "Mức độ doanh lợi của đầu tư tư bản, p' = [m / (c + v)] * 100%",
+        "Trình độ bóc lột công nhân, p' = [m / v] * 100%",
+        "Khả năng thu hồi vốn nhanh, p' = [(c + v) / m] * 100%",
+        "Tốc độ chu chuyển tư bản cố định, p' = [c / v] * 100%"
+      ],
+      "answer": 0,
+      "explanation": "Tỷ suất lợi nhuận (p') đo lường hiệu quả đầu tư của toàn bộ tư bản ứng trước, tính bằng công thức p' = [m / (c + v)] * 100%. Nó luôn nhỏ hơn tỷ suất giá trị thặng dư m' = [m/v] * 100%."
+    },
+    {
+      "id": 54,
+      "chapter": 3,
+      "difficulty": "gold",
+      "question": "Sự hình thành tỷ suất lợi nhuận bình quân dẫn đến sự chuyển hóa giá trị hàng hóa thành gì?",
+      "options": [
+        "Giá cả sản xuất",
+        "Giá cả thị trường tự do",
+        "Chi phí sản xuất tư bản chủ nghĩa",
+        "Giá trị siêu ngạch"
+      ],
+      "answer": 0,
+      "explanation": "Dưới tác động của cạnh tranh giữa các ngành, tư bản tự do di chuyển tìm nơi lợi nhuận cao, hình thành tỷ suất lợi nhuận bình quân. Khi đó giá trị hàng hóa chuyển hóa thành giá cả sản xuất (bằng chi phí sản xuất cộng lợi nhuận bình quân)."
+    },
+    {
+      "id": 55,
+      "chapter": 3,
+      "difficulty": "gold",
+      "question": "Nguồn gốc thực sự của địa tô tư bản chủ nghĩa là gì?",
+      "options": [
+        "Bộ phận giá trị thặng dư siêu ngạch do công nhân nông nghiệp tạo ra và bị chủ đất chiếm đoạt",
+        "Mức độ màu mỡ tự nhiên của đất đai canh tác",
+        "Lao động quản lý của các chủ trang trại lớn",
+        "Sự hỗ trợ tài chính từ ngân sách nhà nước cho nông nghiệp"
+      ],
+      "answer": 0,
+      "explanation": "Bản chất địa tô tư bản chủ nghĩa là phần giá trị thặng dư siêu ngạch ngoài lợi nhuận bình quân do lao động của công nhân nông nghiệp tạo ra, được nhà tư bản thuê đất trả cho chủ đất."
+    },
+    {
+      "id": 56,
+      "chapter": 4,
+      "difficulty": "bronze",
+      "question": "Độc quyền xuất hiện trong nền kinh tế tư bản chủ nghĩa vào khoảng thời gian nào?",
+      "options": [
+        "Cuối thế kỷ XIX - đầu thế kỷ XX",
+        "Cuối thế kỷ XVII - đầu thế kỷ XVIII",
+        "Giữa thế kỷ XX",
+        "Sau Chiến tranh thế giới thứ hai"
+      ],
+      "answer": 0,
+      "explanation": "Độc quyền xuất hiện vào cuối thế kỷ XIX, đầu thế kỷ XX do quá trình tích tụ và tập trung sản xuất đạt đến trình độ cao, dẫn đến sự liên minh giữa các doanh nghiệp lớn."
+    },
+    {
+      "id": 57,
+      "chapter": 4,
+      "difficulty": "bronze",
+      "question": "Nguyên nhân cơ bản nhất dẫn đến sự ra đời của các tổ chức độc quyền là gì?",
+      "options": [
+        "Sự phát triển của lực lượng sản xuất dưới tác động của cách mạng khoa học kỹ thuật làm tăng tích tụ, tập trung sản xuất",
+        "Sự can thiệp cưỡng chế bằng luật pháp của nhà nước tư sản",
+        "Sự thỏa hiệp hòa bình giữa công nhân và chủ tư bản",
+        "Do người tiêu dùng chỉ thích mua hàng ở các hãng lớn"
+      ],
+      "answer": 0,
+      "explanation": "Nguyên nhân cốt lõi là sự phát triển lực lượng sản xuất cùng cách mạng khoa học công nghệ cuối thế kỷ XIX, thúc đẩy các doanh nghiệp tích tụ và tập trung sản xuất quy mô cực lớn để tối ưu hóa chi phí."
+    },
+    {
+      "id": 58,
+      "chapter": 4,
+      "difficulty": "bronze",
+      "question": "Hình thức tổ chức độc quyền nào là sự thỏa thuận giữa các doanh nghiệp về giá cả, sản lượng và thị trường tiêu thụ nhưng các thành viên vẫn giữ độc lập sản xuất và thương nghiệp?",
+      "options": [
+        "Các-ten (Cartel)",
+        "Xanh-đi-ca (Syndicate)",
+        "Tờ-rớt (Trust)",
+        "Công-xoóc-xi-om (Consortium)"
+      ],
+      "answer": 0,
+      "explanation": "Các-ten là hình thức độc quyền sơ khai nhất, các thành viên thỏa thuận về giá cả, phân chia thị trường, sản lượng nhưng độc lập hoàn toàn về sản xuất và lưu thông hàng hóa."
+    },
+    {
+      "id": 59,
+      "chapter": 4,
+      "difficulty": "silver",
+      "question": "Trong hình thức độc quyền Xanh-đi-ca (Syndicate), tính chất độc lập của các doanh nghiệp thành viên thế nào?",
+      "options": [
+        "Mất độc lập thương nghiệp (mua bán do ban quản trị chung lo), nhưng vẫn độc lập sản xuất",
+        "Mất độc lập hoàn toàn cả về sản xuất lẫn thương nghiệp",
+        "Chỉ liên kết về tài chính ngân hàng, độc lập mọi mặt khác",
+        "Giữ độc lập hoàn toàn mọi mặt kinh doanh"
+      ],
+      "answer": 0,
+      "explanation": "Xanh-đi-ca là tổ chức độc quyền cao hơn Các-ten, các thành viên mất độc lập về thương nghiệp (mọi việc mua nguyên liệu, bán sản phẩm do một ban quản trị chung đảm nhận) nhưng vẫn giữ độc lập về sản xuất."
+    },
+    {
+      "id": 60,
+      "chapter": 4,
+      "difficulty": "silver",
+      "question": "Sự kết hợp giữa tư bản độc quyền công nghiệp và tư bản độc quyền ngân hàng tạo ra loại tư bản nào?",
+      "options": [
+        "Tư bản tài chính",
+        "Tư bản cho vay thế chấp",
+        "Tư bản nhà nước độc quyền",
+        "Tư bản thương nghiệp số"
+      ],
+      "answer": 0,
+      "explanation": "Quá trình xâm nhập, liên kết chéo giữa các tổ chức độc quyền ngân hàng lớn và các tổ chức độc quyền công nghiệp lớn đã hình thành nên Tư bản tài chính."
+    },
+    {
+      "id": 61,
+      "chapter": 4,
+      "difficulty": "gold",
+      "question": "Đại diện cho nhóm tư bản tài chính chi phối toàn bộ đời sống kinh tế - chính trị của xã hội tư bản gọi là gì?",
+      "options": [
+        "Nhóm tài phiệt (oligarchy)",
+        "Tầng lớp trung lưu",
+        "Giai cấp tiểu tư sản",
+        "Giới quý tộc mới"
+      ],
+      "answer": 0,
+      "explanation": "Tài phiệt (hay trùm tài chính) là nhóm nhỏ những nhà tư bản tài chính kếch xù nắm giữ huyết mạch kinh tế và thông qua đó kiểm soát bộ máy chính quyền nhà nước."
+    },
+    {
+      "id": 62,
+      "chapter": 4,
+      "difficulty": "silver",
+      "question": "Xuất khẩu tư bản là gì?",
+      "options": [
+        "Xuất khẩu giá trị ra nước ngoài nhằm mục đích chiếm đoạt giá trị thặng dư ở các nước nhập khẩu",
+        "Đưa hàng hóa nội địa bán sang các nước láng giềng",
+        "Cho người nước ngoài vay tiền tiêu dùng lãi suất thấp",
+        "Đưa lao động trong nước đi làm việc có thời hạn ở nước ngoài"
+      ],
+      "answer": 0,
+      "explanation": "Xuất khẩu tư bản là xuất khẩu giá trị (dưới dạng đầu tư trực tiếp FDI hoặc gián tiếp FII) ra nước ngoài nhằm chiếm đoạt giá trị thặng dư và các nguồn lợi khác tại nước sở tại."
+    },
+    {
+      "id": 63,
+      "chapter": 4,
+      "difficulty": "gold",
+      "question": "Bản chất của chủ nghĩa tư bản độc quyền nhà nước là gì?",
+      "options": [
+        "Sự kết hợp sức mạnh của các tổ chức độc quyền tư nhân với sức mạnh của nhà nước tư sản thành một thể thống nhất nhằm phục vụ lợi ích của tổ chức độc quyền và cứu nguy cho chủ nghĩa tư bản",
+        "Nhà nước thâu tóm hoàn toàn và quốc hữu hóa toàn bộ các doanh nghiệp tư nhân",
+        "Các tổ chức độc quyền tự nguyện hiến dâng tài sản cho nhà nước quản lý",
+        "Nhà nước tư sản kiểm soát hoàn toàn tư bản tài chính để chia đều cho người nghèo"
+      ],
+      "answer": 0,
+      "explanation": "Bản chất là sự kết hợp sức mạnh của tổ chức độc quyền tư nhân với sức mạnh vĩ mô của nhà nước tư sản thành một cơ chế thống nhất, vừa duy trì sự thống trị độc quyền vừa bảo vệ chế độ tư bản trước khủng hoảng."
+    },
+    {
+      "id": 64,
+      "chapter": 4,
+      "difficulty": "silver",
+      "question": "Mối quan hệ giữa độc quyền và cạnh tranh trong nền kinh tế thị trường biểu hiện như thế nào?",
+      "options": [
+        "Độc quyền sinh ra từ cạnh tranh tự do nhưng không tiêu diệt cạnh tranh, trái lại làm cho cạnh tranh trở nên gay gắt, đa dạng hơn",
+        "Độc quyền tiêu diệt hoàn toàn tất cả các hình thức cạnh tranh tự do",
+        "Độc quyền và cạnh tranh hoàn toàn không có mối quan hệ gì với nhau",
+        "Cạnh tranh chỉ diễn ra giữa những doanh nghiệp nhỏ, độc quyền không thèm cạnh tranh"
+      ],
+      "answer": 0,
+      "explanation": "Độc quyền được sinh ra từ cạnh tranh tự do nhưng độc quyền không thủ tiêu cạnh tranh. Nó tồn tại song hành và làm xuất hiện các hình thức cạnh tranh gay gắt hơn (như cạnh tranh giữa tổ chức độc quyền với ngoài độc quyền, cạnh tranh nội bộ độc quyền)."
+    },
+    {
+      "id": 65,
+      "chapter": 4,
+      "difficulty": "bronze",
+      "question": "Giá cả độc quyền bao gồm những yếu tố nào?",
+      "options": [
+        "Chi phí sản xuất cộng với lợi nhuận độc quyền cao",
+        "Giá trị hàng hóa cộng thuế VAT",
+        "Chi phí sản xuất cộng lợi nhuận bình quân thông thường",
+        "Do người tiêu dùng tự nguyện quyết định đóng góp"
+      ],
+      "answer": 0,
+      "explanation": "Giá cả độc quyền bằng chi phí sản xuất cộng với lợi nhuận độc quyền (thu được do khống chế mua rẻ nguyên liệu và bán đắt thành phẩm)."
+    },
+    {
+      "id": 66,
+      "chapter": 4,
+      "difficulty": "silver",
+      "question": "Xuất khẩu tư bản thường hướng đến các nước đang phát triển chủ yếu vì lý do gì?",
+      "options": [
+        "Ở đó có giá nhân công rẻ, đất đai rẻ, nguồn nguyên liệu dồi dào và tỷ suất lợi nhuận cao",
+        "Để giúp đỡ các nước này phát triển công nghiệp hoàn toàn miễn phí",
+        "Vì các nước này có trình độ khoa học kỹ thuật tiên tiến vượt bậc",
+        "Do luật pháp ở các nước này nghiêm ngặt và chặt chẽ nhất thế giới"
+      ],
+      "answer": 0,
+      "explanation": "Các nước đang hoặc kém phát triển thường có tài nguyên phong phú, giá nhân công và giá thuê đất rất thấp, thiếu vốn, nên đầu tư vào đây sẽ thu hoạch tỷ suất lợi nhuận vượt trội."
+    },
+    {
+      "id": 67,
+      "chapter": 4,
+      "difficulty": "gold",
+      "question": "Chủ nghĩa tư bản độc quyền nhà nước hình thành dựa trên những biểu hiện nào sau đây?",
+      "options": [
+        "Sự kết hợp nhân sự giữa tổ chức độc quyền và bộ máy nhà nước, sự hình thành sở hữu nhà nước và sự điều tiết kinh tế của nhà nước",
+        "Việc các tập đoàn tư nhân giải tán bộ máy quản trị để bàn giao cho công đoàn",
+        "Sự biến mất hoàn toàn của sở hữu tư nhân và thay bằng sở hữu tập thể",
+        "Việc bãi bỏ hoàn toàn các loại thuế đánh vào lợi nhuận doanh nghiệp"
+      ],
+      "answer": 0,
+      "explanation": "Ba biểu hiện chính: Sự kết hợp nhân sự chéo (tài phiệt tham gia chính phủ), sở hữu nhà nước tư bản (các doanh nghiệp công ích, quốc phòng) và chính sách can thiệp điều tiết vĩ mô của nhà nước."
+    },
+    {
+      "id": 68,
+      "chapter": 4,
+      "difficulty": "gold",
+      "question": "Giới hạn phát triển lịch sử của chủ nghĩa tư bản được Mác chỉ ra là gì?",
+      "options": [
+        "Sự mâu thuẫn sâu sắc giữa lực lượng sản xuất mang tính xã hội hóa ngày càng cao với quan hệ sở hữu tư nhân tư bản chủ nghĩa về tư liệu sản xuất",
+        "Sự cạn kiệt tài nguyên khoáng sản tự nhiên trên trái đất",
+        "Việc các nhà tư bản tự nhận ra lỗi lầm và chuyển giao tài sản cho công nhân",
+        "Sự suy giảm dân số toàn cầu làm thiếu hụt nghiêm trọng sức lao động"
+      ],
+      "answer": 0,
+      "explanation": "Giới hạn lịch sử của CNTB là mâu thuẫn cơ bản giữa lực lượng sản xuất xã hội hóa cao độ với quan hệ chiếm hữu tư nhân tư bản chủ nghĩa. Mâu thuẫn này đòi hỏi phải được giải quyết bằng cuộc cách mạng xã hội chuyển sang CNXH."
+    },
+    {
+      "id": 69,
+      "chapter": 4,
+      "difficulty": "silver",
+      "question": "Quy luật lợi nhuận độc quyền cao phản ánh điều gì?",
+      "options": [
+        "Mục đích tối cao của các tổ chức độc quyền là thu lợi nhuận vượt trội hơn nhiều so với lợi nhuận bình quân nhờ ưu thế độc chiếm thị trường",
+        "Sự công bằng trong phân chia của cải cho toàn bộ người lao động",
+        "Khả năng ổn định giá cả thị trường giúp người nghèo mua sắm dễ dàng",
+        "Việc tối thiểu hóa tiền thuế nộp cho nhà nước"
+      ],
+      "answer": 0,
+      "explanation": "Lợi nhuận độc quyền cao là phần lợi nhuận thu được vượt qua mức lợi nhuận bình quân, nhờ vào vị trí thống trị áp đặt giá cả trên thị trường của các tổ chức độc quyền."
+    },
+    {
+      "id": 70,
+      "chapter": 4,
+      "difficulty": "bronze",
+      "question": "Tổ chức độc quyền là gì?",
+      "options": [
+        "Liên minh giữa các nhà tư bản lớn để tập trung nắm giữ phần lớn việc sản xuất và tiêu thụ một số hàng hóa nhằm thu lợi nhuận độc quyền cao",
+        "Các cửa hàng tạp hóa nhỏ ở nông thôn tự đặt giá bán",
+        "Một cơ quan thuộc chính phủ quản lý các tiêu chuẩn chất lượng hàng hóa",
+        "Các tổ chức từ thiện phi lợi nhuận hỗ trợ công nhân nghèo"
+      ],
+      "answer": 0,
+      "explanation": "Tổ chức độc quyền là liên minh giữa các nhà tư bản lớn nắm giữ phần lớn nguồn hàng, việc sản xuất và tiêu thụ một hoặc một số loại hàng hóa để áp đặt giá cả độc quyền thu lợi nhuận cao."
+    },
+    {
+      "id": 71,
+      "chapter": 5,
+      "difficulty": "bronze",
+      "question": "Kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là gì?",
+      "options": [
+        "Nền kinh tế vận hành đầy đủ, đồng bộ theo các quy luật của kinh tế thị trường, đồng thời bảo đảm định hướng xã hội chủ nghĩa phù hợp với từng giai đoạn phát triển của đất nước",
+        "Nền kinh tế bao cấp hoàn toàn do nhà nước lên kế hoạch và phân phối sản phẩm",
+        "Nền kinh tế thị trường tự do tuyệt đối không chịu bất kỳ sự quản lý nào từ chính phủ",
+        "Mô hình kinh tế phi tiền tệ dựa trên trao đổi vật phẩm trực tiếp"
+      ],
+      "answer": 0,
+      "explanation": "Đó là nền kinh tế thị trường hiện đại, hội nhập quốc tế, vận hành đầy đủ, đồng bộ theo các quy luật thị trường, có sự quản lý của Nhà nước pháp quyền XHCN do Đảng Cộng sản Việt Nam lãnh đạo."
+    },
+    {
+      "id": 72,
+      "chapter": 5,
+      "difficulty": "bronze",
+      "question": "Đặc trưng về mục tiêu của kinh tế thị trường định hướng XHCN ở Việt Nam hướng tới là gì?",
+      "options": [
+        "Dân giàu, nước mạnh, dân chủ, công bằng, văn minh",
+        "Tối đa hóa lợi nhuận cho các tập đoàn nước ngoài",
+        "Xóa bỏ hoàn toàn kinh tế tư nhân ngay lập tức",
+        "Biến nước ta thành quốc gia xuất khẩu tài nguyên thô"
+      ],
+      "answer": 0,
+      "explanation": "Mục tiêu phát triển của kinh tế thị trường định hướng XHCN là giải phóng lực lượng sản xuất, nâng cao đời sống nhân dân, xây dựng đất nước 'Dân giàu, nước mạnh, dân chủ, công bằng, văn minh'."
+    },
+    {
+      "id": 73,
+      "chapter": 5,
+      "difficulty": "bronze",
+      "question": "Nền kinh tế thị trường định hướng XHCN ở Việt Nam có nhiều thành phần kinh tế. Thành phần nào đóng vai trò chủ đạo?",
+      "options": [
+        "Kinh tế nhà nước",
+        "Kinh tế tập thể",
+        "Kinh tế tư nhân",
+        "Kinh tế có vốn đầu tư nước ngoài"
+      ],
+      "answer": 0,
+      "explanation": "Kinh tế nhà nước giữ vai trò chủ đạo, là lực lượng vật chất quan trọng để Nhà nước ổn định vĩ mô, định hướng và điều tiết sự phát triển kinh tế - xã hội."
+    },
+    {
+      "id": 74,
+      "chapter": 5,
+      "difficulty": "silver",
+      "question": "Thành phần kinh tế nào được xác định là 'một động lực quan trọng' của nền kinh tế thị trường định hướng XHCN ở Việt Nam?",
+      "options": [
+        "Kinh tế tư nhân",
+        "Kinh tế nhà nước",
+        "Kinh tế tập thể",
+        "Kinh tế có vốn đầu tư nước ngoài"
+      ],
+      "answer": 0,
+      "explanation": "Kinh tế tư nhân được Đảng và Nhà nước xác định là một động lực quan trọng của nền kinh tế quốc dân, được khuyến khích phát triển ở tất cả các ngành nghề luật pháp không cấm."
+    },
+    {
+      "id": 75,
+      "chapter": 5,
+      "difficulty": "silver",
+      "question": "Hình thức phân phối nào giữ vai trò chủ đạo trong nền kinh tế thị trường định hướng XHCN ở Việt Nam?",
+      "options": [
+        "Phân phối theo kết quả lao động và hiệu quả kinh tế, đồng thời theo mức đóng góp vốn và các nguồn lực khác",
+        "Phân phối bình quân cào bằng cho tất cả mọi người dân",
+        "Chỉ phân phối dựa trên số lượng cổ phiếu sở hữu",
+        "Phân phối theo nhu cầu sinh hoạt tối thiểu của mỗi hộ gia đình"
+      ],
+      "answer": 0,
+      "explanation": "Quan hệ phân phối trong nền kinh tế thị trường định hướng XHCN kết hợp nhiều hình thức, trong đó phân phối theo kết quả lao động và hiệu quả kinh tế là chủ yếu, đi đôi với phân phối theo đóng góp nguồn lực khác và qua phúc lợi xã hội."
+    },
+    {
+      "id": 76,
+      "chapter": 5,
+      "difficulty": "silver",
+      "question": "Đâu là điểm khác biệt cốt lõi về quan hệ phân phối giữa kinh tế thị trường định hướng XHCN và kinh tế thị trường tư bản chủ nghĩa?",
+      "options": [
+        "Gắn liền phân phối với thực hiện tiến bộ và công bằng xã hội ngay trong từng bước và từng chính sách phát triển",
+        "Không thực hiện thu thuế thu nhập cá nhân đối với người giàu",
+        "Bảo đảm người nghèo được trợ cấp tiền mặt vô điều kiện hàng tháng",
+        "Nhà nước thực hiện phân phối toàn bộ của cải sản xuất ra"
+      ],
+      "answer": 0,
+      "explanation": "Sự khác biệt là chủ trương thực hiện tiến bộ và công bằng xã hội ngay trong từng bước và từng chính sách phát triển kinh tế, hạn chế sự phân hóa giàu nghèo quá mức."
+    },
+    {
+      "id": 77,
+      "chapter": 5,
+      "difficulty": "gold",
+      "question": "Lợi ích kinh tế là gì về mặt bản chất?",
+      "options": [
+        "Sự phản ánh và thực hiện các quan hệ sở hữu tư liệu sản xuất nhằm đáp ứng nhu cầu vật chất của các chủ thể kinh tế",
+        "Khoản tiền thưởng thêm cuối năm của nhân viên văn phòng",
+        "Số lợi nhuận ròng thu được sau khi trừ đi mọi khoản thuế",
+        "Sự thỏa mãn tinh thần khi tham gia các hoạt động thiện nguyện xã hội"
+      ],
+      "answer": 0,
+      "explanation": "Lợi ích kinh tế là phạm trù kinh tế khách quan, phản ánh mục đích và động lực của các hoạt động kinh tế nhằm thỏa mãn các nhu cầu vật chất của con người trong các quan hệ sản xuất nhất định."
+    },
+    {
+      "id": 78,
+      "chapter": 5,
+      "difficulty": "gold",
+      "question": "Trong các loại quan hệ lợi ích kinh tế, quan hệ nào là động lực trực tiếp, thúc đẩy năng động sản xuất của cá nhân người lao động?",
+      "options": [
+        "Lợi ích cá nhân",
+        "Lợi ích tập thể",
+        "Lợi ích xã hội",
+        "Lợi ích của các nhóm tài phiệt"
+      ],
+      "answer": 0,
+      "explanation": "Lợi ích cá nhân là động lực trực tiếp và mạnh mẽ nhất thúc đẩy con người lao động sáng tạo. Nhận thức đúng và giải quyết hài hòa lợi ích cá nhân là chìa khóa phát triển sản xuất."
+    },
+    {
+      "id": 79,
+      "chapter": 5,
+      "difficulty": "silver",
+      "question": "Khi có sự mâu thuẫn giữa lợi ích cá nhân, lợi ích tập thể và lợi ích xã hội, phương châm xử lý định hướng XHCN là gì?",
+      "options": [
+        "Giải quyết hài hòa, kết hợp các lợi ích, ưu tiên bảo vệ lợi ích xã hội/chung khi lợi ích cá nhân xâm hại lợi ích chung",
+        "Ưu tiên tuyệt đối lợi ích cá nhân trong mọi trường hợp bất chấp xã hội",
+        "Xóa bỏ hoàn toàn lợi ích cá nhân để tập trung cho lợi ích xã hội",
+        "Để các chủ thể tự do xung đột giải quyết bằng bạo lực"
+      ],
+      "answer": 0,
+      "explanation": "Phương châm là kết hợp hài hòa các lợi ích. Nhà nước điều tiết để lợi ích cá nhân không mâu thuẫn hay hủy hoại lợi ích tập thể và lợi ích xã hội, đồng thời tôn trọng lợi ích cá nhân chính đáng."
+    },
+    {
+      "id": 80,
+      "chapter": 5,
+      "difficulty": "gold",
+      "question": "Thế nào là 'Lợi ích nhóm' tiêu cực cần phải ngăn chặn trong quản lý kinh tế Việt Nam?",
+      "options": [
+        "Sự liên kết bất hợp pháp giữa các cá nhân/nhóm lợi thế lợi dụng chức quyền để chiếm đoạt tài sản công, gây hại cho lợi ích quốc gia",
+        "Việc các hộ gia đình liên kết thành lập hợp tác xã nông nghiệp kiểu mới",
+        "Hoạt động thành lập công đoàn cơ sở bảo vệ quyền lợi công nhân",
+        "Việc các doanh nghiệp cùng ngành tổ chức hội chợ xúc tiến thương mại"
+      ],
+      "answer": 0,
+      "explanation": "Lợi ích nhóm tiêu cực là sự cấu kết trục lợi của một nhóm người (đặc biệt là nhóm có đặc quyền, chức quyền) can thiệp chính sách để vơ vét tài sản công, gây thiệt hại nghiêm trọng cho lợi ích chung của xã hội."
+    },
+    {
+      "id": 81,
+      "chapter": 5,
+      "difficulty": "bronze",
+      "question": "Thể chế kinh tế thị trường định hướng XHCN là gì?",
+      "options": [
+        "Hệ thống luật pháp, quy tắc, bộ máy quản lý và cơ chế vận hành nền kinh tế thị trường theo định hướng xã hội chủ nghĩa",
+        "Bộ sách hướng dẫn cách làm giàu nhanh chóng từ kinh doanh",
+        "Tòa nhà làm việc của Bộ Kế hoạch và Đầu tư",
+        "Mô hình máy tính dự báo tăng trưởng GDP của nhà nước"
+      ],
+      "answer": 0,
+      "explanation": "Thể chế kinh tế là hệ thống các quy định pháp luật, các quy tắc xã hội, các tổ chức quản lý và cơ chế vận hành kinh tế nhằm điều chỉnh hành vi của các chủ thể kinh tế thị trường."
+    },
+    {
+      "id": 82,
+      "chapter": 5,
+      "difficulty": "silver",
+      "question": "Một trong những nhiệm vụ trọng tâm để hoàn thiện thể chế kinh tế thị trường định hướng XHCN ở nước ta là gì?",
+      "options": [
+        "Hoàn thiện thể chế về sở hữu, phát triển các thành phần kinh tế và các loại thị trường",
+        "Quốc hữu hóa toàn bộ đất đai và tài sản cá nhân trong nước",
+        "Hạn chế tối đa việc ký kết hiệp định thương mại tự do quốc tế",
+        "Bắt buộc mọi giao dịch kinh tế phải thanh toán bằng vàng"
+      ],
+      "answer": 0,
+      "explanation": "Các nhiệm vụ trọng tâm gồm hoàn thiện thể chế sở hữu, quyền tài sản, tạo môi trường cạnh tranh lành mạnh, phát triển đồng bộ các loại thị trường (hàng hóa, dịch vụ, tài chính, lao động, khoa học công nghệ)."
+    },
+    {
+      "id": 83,
+      "chapter": 5,
+      "difficulty": "gold",
+      "question": "Định hướng xã hội chủ nghĩa trong nền kinh tế thị trường nước ta do nhân tố nào quyết định trực tiếp?",
+      "options": [
+        "Sự lãnh đạo của Đảng Cộng sản Việt Nam và vai trò quản lý của Nhà nước pháp quyền XHCN",
+        "Quy luật cung cầu tự phát trên thị trường hàng hóa",
+        "Sự trợ giúp nguồn lực tài chính từ các tổ chức tín dụng quốc tế",
+        "Số lượng lao động phổ thông chiếm tỷ lệ cao trong dân số"
+      ],
+      "answer": 0,
+      "explanation": "Sự lãnh đạo của Đảng Cộng sản Việt Nam và quản lý điều tiết vĩ mô của Nhà nước pháp quyền XHCN là nhân tố quyết định giữ vững định hướng XHCN, đảm bảo phát triển vì con người."
+    },
+    {
+      "id": 84,
+      "chapter": 5,
+      "difficulty": "silver",
+      "question": "Thành phần kinh tế tập thể ở nước ta lấy nòng cốt là tổ chức nào?",
+      "options": [
+        "Hợp tác xã và tổ hợp tác",
+        "Các doanh nghiệp tư nhân lớn",
+        "Các tập đoàn kinh tế nhà nước",
+        "Các liên doanh với nước ngoài"
+      ],
+      "answer": 0,
+      "explanation": "Kinh tế tập thể với nhiều hình thức liên kết, hợp tác, lấy Hợp tác xã và tổ hợp tác làm nòng cốt, dựa trên sở hữu của các thành viên và sở hữu tập thể."
+    },
+    {
+      "id": 85,
+      "chapter": 5,
+      "difficulty": "bronze",
+      "question": "Trong nền kinh tế thị trường định hướng XHCN, đất đai thuộc hình thức sở hữu nào ở nước ta?",
+      "options": [
+        "Sở hữu toàn dân do Nhà nước đại diện chủ sở hữu và thống nhất quản lý",
+        "Sở hữu tư nhân của cá nhân hộ gia đình",
+        "Sở hữu tập thể của riêng các hợp tác xã",
+        "Sở hữu của các nhà đầu tư nước ngoài mua đứt"
+      ],
+      "answer": 0,
+      "explanation": "Hiến pháp Việt Nam quy định đất đai là tài sản công thuộc sở hữu toàn dân do Nhà nước đại diện chủ sở hữu và thống nhất quản lý."
+    },
+    {
+      "id": 86,
+      "chapter": 6,
+      "difficulty": "bronze",
+      "question": "Công nghiệp hóa là gì về mặt bản chất?",
+      "options": [
+        "Quá trình chuyển đổi căn bản, toàn diện các hoạt động sản xuất kinh doanh từ sử dụng lao động thủ công sang sử dụng lao động bằng công nghệ, máy móc tiên tiến",
+        "Việc xây dựng thật nhiều nhà máy khói công nghiệp ở nông thôn",
+        "Hoạt động nhập khẩu tất cả các loại máy móc cũ từ nước ngoài",
+        "Việc tập trung toàn bộ dân số vào làm việc trong các khu chế xuất"
+      ],
+      "answer": 0,
+      "explanation": "Công nghiệp hóa là quá trình chuyển đổi căn bản, toàn diện các hoạt động sản xuất, kinh doanh từ sử dụng sức lao động thủ công là chính sang sử dụng một cách phổ biến sức lao động với công nghệ, phương tiện, phương pháp tiên tiến."
+    },
+    {
+      "id": 87,
+      "chapter": 6,
+      "difficulty": "bronze",
+      "question": "Hiện đại hóa là gì?",
+      "options": [
+        "Quá trình ứng dụng những thành tựu khoa học và công nghệ hiện đại, tiên tiến vào mọi lĩnh vực của đời sống kinh tế - xã hội",
+        "Việc mua sắm các thiết bị điện thoại thông minh thế hệ mới nhất cho người dân",
+        "Thay thế toàn bộ các ngôi nhà truyền thống bằng nhà cao tầng kính",
+        "Việc sử dụng tiếng Anh làm ngôn ngữ bắt buộc duy nhất trong giao tiếp"
+      ],
+      "answer": 0,
+      "explanation": "Hiện đại hóa là quá trình ứng dụng những thành tựu khoa học và công nghệ tiên tiến, hiện đại vào sản xuất, kinh doanh, dịch vụ và quản lý kinh tế - xã hội nhằm đạt năng suất cao."
+    },
+    {
+      "id": 88,
+      "chapter": 6,
+      "difficulty": "bronze",
+      "question": "Tại sao Việt Nam phải thực hiện Công nghiệp hóa kết hợp với Hiện đại hóa?",
+      "options": [
+        "Vì nước ta đi sau, cần tận dụng lợi thế đi sau, đi tắt đón đầu ứng dụng ngay công nghệ hiện đại của cuộc cách mạng công nghiệp mới",
+        "Vì đây là quy định bắt buộc của Liên hợp quốc đối với nước nghèo",
+        "Để giảm thiểu số lượng công việc của ngành dịch vụ",
+        "Để bắt buộc mọi nông dân phải chuyển sang làm công nhân cơ khí"
+      ],
+      "answer": 0,
+      "explanation": "Nước ta tiến hành CNH khi thế giới đã trải qua nhiều cuộc cách mạng công nghiệp. Do đó phải kết hợp CNH với HĐH, tận dụng tiến bộ công nghệ để rút ngắn thời gian phát triển, tránh lặp lại lộ trình tuần tự lạc hậu."
+    },
+    {
+      "id": 89,
+      "chapter": 6,
+      "difficulty": "silver",
+      "question": "Cuộc cách mạng công nghiệp lần thứ tư (Cách mạng 4.0) đặc trưng bởi công nghệ cốt lõi nào?",
+      "options": [
+        "Trí tuệ nhân tạo (AI), dữ liệu lớn (Big Data), Internet vạn vật (IoT), robot thông minh",
+        "Động cơ hơi nước và các máy dệt cơ khí tự động",
+        "Động cơ đốt trong, điện năng và dây chuyền lắp ráp hàng loạt",
+        "Máy tính điện tử cá nhân và mạng internet băng thông rộng sơ khai"
+      ],
+      "answer": 0,
+      "explanation": "Cách mạng công nghiệp lần thứ tư đặc trưng bởi sự tích hợp trí tuệ nhân tạo (AI), dữ liệu lớn (Big Data), Internet vạn vật (IoT), công nghệ sinh học và điện toán đám mây làm thay đổi căn bản nền sản xuất."
+    },
+    {
+      "id": 90,
+      "chapter": 6,
+      "difficulty": "silver",
+      "question": "Nội dung cơ bản của công nghiệp hóa, hiện đại hóa ở Việt Nam hiện nay bao gồm khía cạnh nào?",
+      "options": [
+        "Phát triển lực lượng sản xuất dựa trên khoa học công nghệ, chuyển dịch cơ cấu kinh tế theo hướng hiện đại và hoàn thiện quan hệ sản xuất phù hợp",
+        "Chỉ tập trung xây dựng các ngành công nghiệp nặng quy mô lớn",
+        "Ngừng phát triển nông nghiệp để dồn toàn bộ vốn cho công nghệ phần mềm",
+        "Đóng cửa các thị trường bán lẻ truyền thống để chuyển sang online 100%"
+      ],
+      "answer": 0,
+      "explanation": "Nội dung gồm: Phát triển lực lượng sản xuất dựa trên ứng dụng KHCN; chuyển dịch cơ cấu kinh tế theo hướng hiện đại, hiệu quả; và từng bước hoàn thiện quan hệ sản xuất phù hợp với trình độ lực lượng sản xuất."
+    },
+    {
+      "id": 91,
+      "chapter": 6,
+      "difficulty": "silver",
+      "question": "Chuyển dịch cơ cấu ngành kinh tế theo hướng tiến bộ, hiện đại ở nước ta yêu cầu thế nào?",
+      "options": [
+        "Tăng tỷ trọng ngành công nghiệp, xây dựng và dịch vụ; giảm tỷ trọng ngành nông, lâm, thủy sản trong GDP một cách hợp lý",
+        "Tăng tuyệt đối tỷ trọng nông nghiệp để đảm bảo an ninh lương thực",
+        "Xóa bỏ hoàn toàn ngành công nghiệp khai khoáng tự nhiên",
+        "Đưa tỷ trọng ngành dịch vụ đạt mức 99% tổng nền kinh tế"
+      ],
+      "answer": 0,
+      "explanation": "Cơ cấu ngành tiến bộ đòi hỏi tăng tỷ trọng của công nghiệp, xây dựng và dịch vụ gắn liền với nâng cao hàm lượng công nghệ, đồng thời giảm tỷ trọng của nông nghiệp trong GDP nhưng vẫn tăng giá trị tuyệt đối nông nghiệp nhờ công nghệ cao."
+    },
+    {
+      "id": 92,
+      "chapter": 6,
+      "difficulty": "gold",
+      "question": "Hội nhập kinh tế quốc tế là gì?",
+      "options": [
+        "Quá trình một quốc gia thực hiện gắn kết nền kinh tế của mình với nền kinh tế thế giới thông qua các thỏa thuận song phương, đa phương",
+        "Việc cho phép người nước ngoài tự do vào mua đất đai nhà cửa không giới hạn",
+        "Hoạt động quyên góp viện trợ nhân đạo cho các nước đang có chiến tranh",
+        "Việc sử dụng đồng USD thay thế hoàn toàn đồng bản tệ trong nước"
+      ],
+      "answer": 0,
+      "explanation": "Hội nhập kinh tế quốc tế là quá trình quốc gia tham gia vào phân công lao động quốc tế, mở cửa kinh tế, thiết lập các liên kết kinh tế thương mại, tài chính với các quốc gia khác dựa trên các hiệp định chung."
+    },
+    {
+      "id": 93,
+      "chapter": 6,
+      "difficulty": "gold",
+      "question": "Tác động tích cực lớn nhất của hội nhập kinh tế quốc tế đối với Việt Nam là gì?",
+      "options": [
+        "Mở rộng thị trường xuất khẩu, thu hút vốn đầu tư FDI, tiếp thu công nghệ và nâng cao năng lực cạnh tranh quốc gia",
+        "Làm giảm áp lực cạnh tranh cho các doanh nghiệp yếu kém trong nước",
+        "Giúp nước ta không cần tự sản xuất mà chỉ cần nhập khẩu tiêu dùng",
+        "Xóa bỏ hoàn toàn ranh giới quốc gia và bộ máy hải quan biên giới"
+      ],
+      "answer": 0,
+      "explanation": "Hội nhập kinh tế quốc tế mở ra cơ hội tiếp cận thị trường toàn cầu rộng lớn, thu hút nguồn lực vốn đầu tư bên ngoài, chuyển giao công nghệ quản lý tiên tiến và nâng cao chất lượng tăng trưởng kinh tế."
+    },
+    {
+      "id": 94,
+      "chapter": 6,
+      "difficulty": "gold",
+      "question": "Thách thức lớn nhất về mặt kinh tế đối với Việt Nam khi hội nhập quốc tế sâu rộng là gì?",
+      "options": [
+        "Sức ép cạnh tranh gay gắt từ các tập đoàn nước ngoài có tiềm lực mạnh, nguy cơ tụt hậu và lệ thuộc kinh tế",
+        "Việc người dân mua sắm nhiều hàng ngoại làm cạn kiệt tài chính cá nhân",
+        "Sự gia tăng quá nhanh của số lượng lao động nước ngoài vào tranh việc",
+        "Phải đóng góp quá nhiều tiền hội phí cho các tổ chức liên minh"
+      ],
+      "answer": 0,
+      "explanation": "Thách thức lớn nhất là sức ép cạnh tranh khốc liệt lên các doanh nghiệp nội địa có quy mô nhỏ, năng lực công nghệ yếu, dễ dẫn đến phá sản hoặc bị thâu tóm, và nguy cơ rơi vào bẫy thu nhập trung bình."
+    },
+    {
+      "id": 95,
+      "chapter": 6,
+      "difficulty": "silver",
+      "question": "Nguyên tắc cốt lõi của Việt Nam khi tham gia hội nhập kinh tế quốc tế là gì?",
+      "options": [
+        "Độc lập tự chủ và bảo đảm an ninh quốc gia; bình đẳng, cùng có lợi",
+        "Tuân thủ vô điều kiện mọi yêu cầu áp đặt từ các nước lớn",
+        "Chỉ hợp tác với các nước có nền kinh tế bao cấp giống nước ta",
+        "Mở cửa hoàn toàn thị trường tài chính không có bất kỳ sự kiểm soát nào"
+      ],
+      "answer": 0,
+      "explanation": "Nguyên tắc cốt lõi là hội nhập trên cơ sở tôn trọng độc lập, chủ quyền, toàn vẹn lãnh thổ, không can thiệp nội bộ, bảo đảm lợi ích quốc gia - dân tộc tối cao, bình đẳng và hai bên cùng có lợi."
+    },
+    {
+      "id": 96,
+      "chapter": 6,
+      "difficulty": "bronze",
+      "question": "Hiệp định thương mại tự do thế hệ mới mà Việt Nam tham gia có quy mô lớn ở khu vực châu Á - Thái Bình Dương là gì?",
+      "options": [
+        "CPTPP (Hiệp định Đối tác Toàn diện và Tiến bộ xuyên Thái Bình Dương)",
+        "NAFTA (Hiệp định Thương mại Tự do Bắc Mỹ)",
+        "EU (Liên minh Châu Âu)",
+        "OPEC (Tổ chức các nước xuất khẩu dầu mỏ)"
+      ],
+      "answer": 0,
+      "explanation": "CPTPP là một trong những hiệp định thương mại tự do thế hệ mới quy mô lớn nhất mà Việt Nam tham gia ký kết và thực thi từ đầu năm 2019."
+    },
+    {
+      "id": 97,
+      "chapter": 6,
+      "difficulty": "silver",
+      "question": "Trong xu thế cách mạng công nghệ hiện nay, nguồn tài nguyên quý giá nhất quyết định tốc độ công nghiệp hóa, hiện đại hóa là gì?",
+      "options": [
+        "Nguồn nhân lực chất lượng cao, có trí tuệ và tay nghề chuyên môn",
+        "Trữ lượng dầu mỏ và khí đốt tự nhiên dồi dào",
+        "Tổng lượng vốn bằng tiền mặt gửi ở các ngân hàng nước ngoài",
+        "Quỹ đất nông nghiệp chưa khai phá ở vùng sâu vùng xa"
+      ],
+      "answer": 0,
+      "explanation": "Trong nền kinh tế tri thức và CMCN 4.0, tri thức và con người là yếu tố quyết định hàng đầu. Nguồn nhân lực chất lượng cao là động lực cốt lõi để đi tắt đón đầu phát triển đất nước."
+    },
+    {
+      "id": 98,
+      "chapter": 6,
+      "difficulty": "silver",
+      "question": "Việt Nam gia nhập Tổ chức Thương mại Thế giới (WTO) vào năm nào?",
+      "options": [
+        "Năm 2007",
+        "Năm 1995",
+        "Năm 2000",
+        "Năm 2015"
+      ],
+      "answer": 0,
+      "explanation": "Việt Nam chính thức trở thành thành viên thứ 150 của Tổ chức Thương mại Thế giới (WTO) vào ngày 11 tháng 1 năm 2007, đánh dấu mốc hội nhập toàn cầu sâu rộng."
+    },
+    {
+      "id": 99,
+      "chapter": 6,
+      "difficulty": "gold",
+      "question": "Mối quan hệ biện chứng giữa độc lập tự chủ và hội nhập kinh tế quốc tế của Việt Nam là gì?",
+      "options": [
+        "Hội nhập kinh tế là phương thức để tăng cường sức mạnh tổng hợp của quốc gia, từ đó củng cố tính độc lập tự chủ một cách vững chắc hơn",
+        "Độc lập tự chủ đòi hỏi phải đóng cửa nền kinh tế hoàn toàn tránh sự can thiệp từ bên ngoài",
+        "Hội nhập càng sâu thì tính độc lập tự chủ quốc gia càng bị xóa nhòa hoàn toàn",
+        "Hai yếu tố này mâu thuẫn đối kháng trực tiếp và không thể dung hòa được"
+      ],
+      "answer": 0,
+      "explanation": "Mối quan hệ biện chứng: Giữ vững độc lập tự chủ là cơ sở để hội nhập chủ động, an toàn và hiệu quả; ngược lại, hội nhập kinh tế tốt sẽ giúp nâng lực lực quốc gia, củng cố nội lực thực tế để tự chủ vững vàng."
+    },
+    {
+      "id": 100,
+      "chapter": 6,
+      "difficulty": "bronze",
+      "question": "Sự kiện lịch sử nào đánh dấu Việt Nam bình thường hóa quan hệ ngoại giao với Hoa Kỳ, mở đầu cho làn sóng hội nhập kinh tế lớn?",
+      "options": [
+        "Năm 1995",
+        "Năm 1975",
+        "Năm 1986",
+        "Năm 2007"
+      ],
+      "answer": 0,
+      "explanation": "Năm 1995 đánh dấu mốc quan trọng khi Việt Nam chính thức bình thường hóa quan hệ ngoại giao với Hoa Kỳ và gia nhập ASEAN, mở toang cánh cửa hội nhập khu vực và thế giới."
+    }
+  ],
+  "items": [
+    {
+      "id": "w_bamboo",
+      "name": "Bamboo Stick",
+      "type": "weapon",
+      "statName": "attack",
+      "statValue": 2,
+      "cost": 20,
+      "description": "A simple stick made from Vietnamese village bamboo.",
+      "rarity": "bronze"
+    },
+    {
+      "id": "w_copper",
+      "name": "Copper Sword",
+      "type": "weapon",
+      "statName": "attack",
+      "statValue": 5,
+      "cost": 50,
+      "description": "A sword cast from refined copper. Sturdy enough for normal monsters.",
+      "rarity": "bronze"
+    },
+    {
+      "id": "w_iron",
+      "name": "Iron Sword",
+      "type": "weapon",
+      "statName": "attack",
+      "statValue": 10,
+      "cost": 120,
+      "description": "A well-forged iron blade that slices with proletarian strength.",
+      "rarity": "silver"
+    },
+    {
+      "id": "w_steel",
+      "name": "Steel Blade",
+      "type": "weapon",
+      "statName": "attack",
+      "statValue": 20,
+      "cost": 300,
+      "description": "A high-carbon steel blade. Excellent cutting ability.",
+      "rarity": "silver"
+    },
+    {
+      "id": "w_excalibur",
+      "name": "Excalibur of Labor",
+      "type": "weapon",
+      "statName": "attack",
+      "statValue": 45,
+      "cost": 800,
+      "description": "A legendary sword representing the absolute power of the working class.",
+      "rarity": "gold"
+    },
+    {
+      "id": "a_cloth",
+      "name": "Cloth Robe",
+      "type": "armor",
+      "statName": "defense",
+      "statValue": 1,
+      "cost": 15,
+      "description": "Standard student clothes. Offers basic insulation.",
+      "rarity": "bronze"
+    },
+    {
+      "id": "a_leather",
+      "name": "Leather Vest",
+      "type": "armor",
+      "statName": "defense",
+      "statValue": 3,
+      "cost": 45,
+      "description": "Made from sturdy animal hide to block physical attacks.",
+      "rarity": "bronze"
+    },
+    {
+      "id": "a_copper",
+      "name": "Copper Chestplate",
+      "type": "armor",
+      "statName": "defense",
+      "statValue": 7,
+      "cost": 110,
+      "description": "A shiny bronze breastplate protecting vital areas.",
+      "rarity": "silver"
+    },
+    {
+      "id": "a_iron",
+      "name": "Iron Armor",
+      "type": "armor",
+      "statName": "defense",
+      "statValue": 15,
+      "cost": 280,
+      "description": "Heavy metallic plates forged to endure strong blows.",
+      "rarity": "silver"
+    },
+    {
+      "id": "a_proletariat",
+      "name": "Armor of Proletariat",
+      "type": "armor",
+      "statName": "defense",
+      "statValue": 35,
+      "cost": 750,
+      "description": "A legendary chestplate reflecting the collective defense of the working class.",
+      "rarity": "gold"
+    },
+    {
+      "id": "ac_savings",
+      "name": "Ring of Savings",
+      "type": "accessory",
+      "statName": "hp",
+      "statValue": 20,
+      "cost": 40,
+      "description": "A modest ring that reminds you of the importance of thriftiness (+20 HP).",
+      "rarity": "bronze"
+    },
+    {
+      "id": "ac_capital",
+      "name": "Amulet of Capital",
+      "type": "accessory",
+      "statName": "hp",
+      "statValue": 60,
+      "cost": 150,
+      "description": "A medallion that boosts your life force through accumulated wealth (+60 HP).",
+      "rarity": "silver"
+    },
+    {
+      "id": "ac_surplus",
+      "name": "Belt of Surplus Value",
+      "type": "accessory",
+      "statName": "hp",
+      "statValue": 150,
+      "cost": 500,
+      "description": "A legendary belt woven from threads of excess labor. Substantially raises vital energy (+150 HP).",
+      "rarity": "gold"
+    },
+    {
+      "id": "p_small",
+      "name": "Small Potion",
+      "type": "potion",
+      "statName": "hpRestore",
+      "statValue": 40,
+      "cost": 10,
+      "description": "A small herbal brew that restores 40 HP instantly.",
+      "rarity": "bronze"
+    },
+    {
+      "id": "p_medium",
+      "name": "Medium Potion",
+      "type": "potion",
+      "statName": "hpRestore",
+      "statValue": 100,
+      "cost": 25,
+      "description": "A highly concentrated flask restoring 100 HP.",
+      "rarity": "silver"
+    },
+    {
+      "id": "p_large",
+      "name": "Large Potion",
+      "type": "potion",
+      "statName": "hpRestore",
+      "statValue": 250,
+      "cost": 60,
+      "description": "A superior tonic that restores 250 HP.",
+      "rarity": "silver"
+    },
+    {
+      "id": "p_elixir",
+      "name": "Elixir of Marx",
+      "type": "potion",
+      "statName": "hpRestore",
+      "statValue": 999,
+      "cost": 150,
+      "description": "A magical recipe from the master of critique. Fully restores all health.",
+      "rarity": "gold"
+    }
+  ],
+  "quests": [
+    {
+      "id": "quest_1",
+      "title": "The Path of Enlightenment (Con Đường Giác Ngộ)",
+      "description": "Accept training from the Philosophy Professor. Answer 3 questions correctly to lay down your theoretical foundation.",
+      "type": "answer_questions",
+      "targetCount": 3,
+      "rewardGold": 50,
+      "rewardExp": 100,
+      "rewardItemId": "w_copper",
+      "stageId": "stage_1"
+    },
+    {
+      "id": "quest_2",
+      "title": "Combat Market Chaos (Chống Hỗn Loạn Thị Trường)",
+      "description": "Help the local marketplace by defeating 3 Counterfeit Merchants or Inflation Blobs.",
+      "type": "kill_monsters",
+      "targetCount": 3,
+      "rewardGold": 80,
+      "rewardExp": 200,
+      "rewardItemId": "a_leather",
+      "stageId": "stage_2"
+    },
+    {
+      "id": "quest_3",
+      "title": "Liberation of Labor (Giải phóng Sức lao động)",
+      "description": "Join factory workers to stop 3 Sweatshop Foremen or Greedy Capitalists.",
+      "type": "kill_monsters",
+      "targetCount": 3,
+      "rewardGold": 150,
+      "rewardExp": 400,
+      "rewardItemId": "ac_savings",
+      "stageId": "stage_3"
+    },
+    {
+      "id": "quest_4",
+      "title": "Monopoly Breaker (Phá vỡ Liên minh Độc quyền)",
+      "description": "Help the Market Inspector complete Chapter 4 by defeating the Emperor of Imperialism.",
+      "type": "complete_chapter",
+      "targetCount": 1,
+      "rewardGold": 300,
+      "rewardExp": 800,
+      "rewardItemId": "w_iron",
+      "stageId": "stage_4"
+    },
+    {
+      "id": "quest_5",
+      "title": "Market Guard (Vệ binh Thị trường)",
+      "description": "Complete Chapter 5. Restore the socialist-oriented market path against the Archdemon.",
+      "type": "complete_chapter",
+      "targetCount": 1,
+      "rewardGold": 500,
+      "rewardExp": 1500,
+      "rewardItemId": "ac_capital",
+      "stageId": "stage_5"
+    },
+    {
+      "id": "quest_6",
+      "title": "Modern Age Pioneer (Người tiên phong Hiện đại hóa)",
+      "description": "Complete Chapter 6. Bring the high-tech industrial revolution to its peak by defeating the Titan.",
+      "type": "complete_chapter",
+      "targetCount": 1,
+      "rewardGold": 1000,
+      "rewardExp": 3000,
+      "rewardItemId": "w_excalibur",
+      "stageId": "stage_6"
+    }
+  ],
+  "savegames": [
+    {
+      "id": 1,
+      "playerName": "KarlMarx_Jr",
+      "classType": "Worker (Công nhân)",
+      "level": 12,
+      "exp": 3500,
+      "gold": 1450,
+      "hp": 320,
+      "maxHp": 320,
+      "attack": 68,
+      "defense": 42,
+      "currentStageId": "stage_6",
+      "inventory": [
+        {
+          "itemId": "p_elixir",
+          "quantity": 2
+        },
+        {
+          "itemId": "p_large",
+          "quantity": 5
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_excalibur",
+        "armor": "a_proletariat",
+        "accessory": "ac_surplus"
+      },
+      "completedStages": [
+        "stage_1",
+        "stage_2",
+        "stage_3",
+        "stage_4",
+        "stage_5"
+      ],
+      "score": 48,
+      "timestamp": "2026-07-17T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "playerName": "Lenin_Learner",
+      "classType": "Scholar (Học giả)",
+      "level": 8,
+      "exp": 1200,
+      "gold": 580,
+      "hp": 200,
+      "maxHp": 200,
+      "attack": 38,
+      "defense": 26,
+      "currentStageId": "stage_4",
+      "inventory": [
+        {
+          "itemId": "p_medium",
+          "quantity": 4
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_iron",
+        "armor": "a_copper",
+        "accessory": "ac_capital"
+      },
+      "completedStages": [
+        "stage_1",
+        "stage_2",
+        "stage_3"
+      ],
+      "score": 25,
+      "timestamp": "2026-07-17T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "playerName": "Rosa_L",
+      "classType": "Worker (Công nhân)",
+      "level": 5,
+      "exp": 450,
+      "gold": 220,
+      "hp": 160,
+      "maxHp": 160,
+      "attack": 24,
+      "defense": 14,
+      "currentStageId": "stage_3",
+      "inventory": [
+        {
+          "itemId": "p_small",
+          "quantity": 2
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_copper",
+        "armor": "a_leather",
+        "accessory": "ac_savings"
+      },
+      "completedStages": [
+        "stage_1",
+        "stage_2"
+      ],
+      "score": 14,
+      "timestamp": "2026-07-17T10:15:00Z"
+    },
+    {
+      "playerName": "CommunistScholar",
+      "classType": "Scholar (Học giả)",
+      "level": 1,
+      "exp": 0,
+      "gold": 50,
+      "hp": 80,
+      "maxHp": 80,
+      "attack": 12,
+      "defense": 4,
+      "currentStageId": "stage_1",
+      "inventory": [
+        {
+          "itemId": "p_small",
+          "quantity": 3
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_bamboo",
+        "armor": "a_cloth",
+        "accessory": null
+      },
+      "activeQuests": [],
+      "completedStages": [],
+      "score": 0,
+      "timestamp": "2026-07-17T07:39:19.570Z",
+      "id": 4
+    },
+    {
+      "playerName": "CommunistScholar",
+      "classType": "Scholar (Học giả)",
+      "level": 1,
+      "exp": 0,
+      "gold": 50,
+      "hp": 80,
+      "maxHp": 80,
+      "attack": 12,
+      "defense": 4,
+      "currentStageId": "stage_1",
+      "inventory": [
+        {
+          "itemId": "p_small",
+          "quantity": 3
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_bamboo",
+        "armor": "a_cloth",
+        "accessory": null
+      },
+      "activeQuests": [],
+      "completedStages": [],
+      "score": 0,
+      "timestamp": "2026-07-17T07:39:57.695Z",
+      "id": 5
+    },
+    {
+      "playerName": "test",
+      "classType": "Scholar (Học giả)",
+      "level": 1,
+      "exp": 0,
+      "gold": 50,
+      "hp": 80,
+      "maxHp": 80,
+      "attack": 12,
+      "defense": 4,
+      "currentStageId": "stage_1",
+      "inventory": [
+        {
+          "itemId": "p_small",
+          "quantity": 3
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_bamboo",
+        "armor": "a_cloth",
+        "accessory": null
+      },
+      "activeQuests": [],
+      "completedStages": [],
+      "score": 0,
+      "timestamp": "2026-07-17T07:41:30.909Z",
+      "id": 6
+    },
+    {
+      "playerName": "test1",
+      "classType": "Scholar (Học giả)",
+      "level": 1,
+      "exp": 0,
+      "gold": 50,
+      "hp": 80,
+      "maxHp": 80,
+      "attack": 12,
+      "defense": 4,
+      "currentStageId": "stage_1",
+      "inventory": [
+        {
+          "itemId": "p_small",
+          "quantity": 3
+        }
+      ],
+      "equippedItems": {
+        "weapon": "w_bamboo",
+        "armor": "a_cloth",
+        "accessory": null
+      },
+      "activeQuests": [],
+      "completedStages": [],
+      "score": 0,
+      "timestamp": "2026-07-17T08:01:20.869Z",
+      "id": 7
+    }
+  ]
+}
